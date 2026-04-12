@@ -1,0 +1,31 @@
+- [Home](/)
+- Getting Started
+  - [Overview](getting-started/overview.md)
+  - [Create Account](getting-started/create-account.md)
+  - [First Steps](getting-started/first-steps.md)
+- Chat
+  - [Overview](chat/overview.md)
+  - [Sending Messages](chat/sending-messages.md)
+  - [Attachments](chat/attachments.md)
+  - [Chat Settings](chat/settings.md)
+- Agents
+  - [Overview](agents/overview.md)
+  - [Browse Agents](agents/browse.md)
+  - [Create Agent](agents/create.md)
+  - [Configure Agent](agents/configure.md)
+  - [Knowledge Base](agents/knowledge-base.md)
+- Companies
+  - [Overview](companies/overview.md)
+  - [Create Company](companies/create.md)
+  - [Routing Strategies](companies/routing.md)
+- Tools
+  - [Overview](tools/overview.md)
+  - [Connect Credentials](tools/credentials.md)
+  - [OAuth Tools](tools/oauth.md)
+- Tasks
+  - [Overview](tasks/overview.md)
+  - [Job Status](tasks/job-status.md)
+- Account
+  - [Settings](account/settings.md)
+  - [Notifications](account/notifications.md)
+  - [Subscriptions](account/subscriptions.md)
