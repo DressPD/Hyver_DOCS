@@ -1,12 +1,14 @@
-# <img src="assets/logo.svg" alt="Hyver" width="64"> Hyver
+<img src="assets/logo.svg" alt="Hyver" width="80">
+
+# Hyver
 
 > Your AI Agent Platform
 
-**Chat with AI, build custom agents, assemble multi-agent teams, and connect powerful tools.**
+Build intelligent workflows with custom AI agents, multi-agent teams, and powerful tool integrations.
 
-- 💬 **Chat** — Interact with AI models directly or through specialized agents
-- 🤖 **Agents** — Create custom AI assistants with knowledge bases and tools
-- 🏢 **Companies** — Build multi-agent teams that work together
-- 🔧 **Tools** — Connect external services like Google Workspace, Slack, and more
+- 💬 **Chat** — Converse with AI models directly or through specialized agents
+- 🤖 **Agents** — Create custom AI assistants with knowledge bases and tools  
+- 🏢 **Companies** — Assemble multi-agent teams that collaborate seamlessly
+- 🔧 **Tools** — Connect Google Workspace, Slack, and other external services
 
 [Get Started](getting-started/overview.md)
