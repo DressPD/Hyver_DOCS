@@ -1,4 +1,4 @@
-# 🤖 Hyver
+# <img src="assets/logo.svg" alt="Hyver" width="64"> Hyver
 
 > Your AI Agent Platform
 
@@ -10,4 +10,3 @@
 - 🔧 **Tools** — Connect external services like Google Workspace, Slack, and more
 
 [Get Started](getting-started/overview.md)
-[View on GitHub](https://github.com/DressPD/Hyver_DOCS)

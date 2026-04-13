@@ -6,162 +6,141 @@
   <meta name="description" content="Hyver User Guide - Learn how to use Hyver AI agents, tools, and chat">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#14b8a6">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
   
-  <!-- Docsify Theme -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  
-  <!-- Dark Mode Support -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/style.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.min.css">
   
   <style>
     :root {
       --theme-color: #14b8a6;
       --base-background-color: #ffffff;
-      --cover-background-color: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #14b8a6 100%);
+      --base-color: #334155;
       --heading-color: #0f172a;
-      --text-color: #334155;
-      --link-color: #14b8a6;
-      --link-color-hover: #0d9488;
+      --text-color-base: #334155;
+      --mono-hue: 170;
+      --mono-saturation: 84%;
+      
       --sidebar-background: #f8fafc;
+      --sidebar-nav-link-color: #334155;
       --sidebar-nav-link-color--active: #14b8a6;
       --sidebar-nav-link-border-color--active: #14b8a6;
-      --search-input-border-color: #14b8a6;
-      --search-input-border-color--focus: #0d9488;
-      --progress-color: #14b8a6;
+      --sidebar-name-color: #14b8a6;
+      
+      --link-color: #14b8a6;
+      --link-color--hover: #0d9488;
+      
+      --search-input-border-color: #e2e8f0;
+      --search-input-border-color--focus: #14b8a6;
+      
+      --blockquote-border-color: #14b8a6;
+      --blockquote-background: rgba(20, 184, 166, 0.08);
+      
+      --table-head-background: #14b8a6;
+      --table-head-color: #ffffff;
+      
+      --cover-background-color: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #14b8a6 100%);
+      --cover-heading-color: #ffffff;
+      --cover-color: rgba(255, 255, 255, 0.9);
+      --cover-button-background: #14b8a6;
+      --cover-button-color: #ffffff;
+      
+      --notice-tip-border-color: #14b8a6;
     }
     
-    /* Dark mode variables */
-    [data-theme="dark"] {
+    :root[data-theme="dark"] {
       --base-background-color: #0f172a;
+      --base-color: #cbd5e1;
       --heading-color: #f1f5f9;
-      --text-color: #cbd5e1;
+      --text-color-base: #cbd5e1;
+      
       --sidebar-background: #1e293b;
+      --sidebar-nav-link-color: #94a3b8;
+      
+      --code-theme-background: #1e293b;
+      --code-theme-text: #e2e8f0;
+      --code-inline-background: #334155;
+      --code-inline-color: #e2e8f0;
+      
+      --table-row-odd-background: rgba(30, 41, 59, 0.5);
+      --table-cell-border-color: #334155;
+      
       --cover-background-color: linear-gradient(135deg, #0f172a 0%, #164e63 50%, #14b8a6 100%);
     }
     
-    /* Sidebar styling */
     .sidebar-nav > ul > li > a {
       font-weight: 600;
-      color: var(--heading-color);
     }
     
-    .sidebar-nav li a:hover {
-      color: var(--theme-color);
+    .app-name-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 700;
     }
     
-    /* Headings */
-    .markdown-section h1 {
+    .app-name-link img {
+      width: 28px;
+      height: 28px;
+    }
+    
+    .markdown-section h1:first-child {
       color: var(--theme-color);
       border-bottom: 2px solid var(--theme-color);
       padding-bottom: 0.5rem;
     }
     
-    .markdown-section h2 {
-      color: var(--heading-color);
-      border-bottom: 1px solid #e2e8f0;
-      padding-bottom: 0.3rem;
-    }
-    
-    /* Links */
-    .markdown-section a {
-      color: var(--link-color);
-      text-decoration: none;
-      border-bottom: 1px dashed var(--link-color);
-    }
-    
-    .markdown-section a:hover {
-      color: var(--link-color-hover);
-      border-bottom-style: solid;
-    }
-    
-    /* Tables */
-    .markdown-section table {
-      border-collapse: collapse;
-      width: 100%;
-      margin: 1rem 0;
-    }
-    
-    .markdown-section th {
+    .markdown-section table th {
       background: var(--theme-color);
       color: white;
-      padding: 0.75rem;
-      text-align: left;
     }
     
-    .markdown-section td {
-      padding: 0.75rem;
-      border-bottom: 1px solid #e2e8f0;
-    }
-    
-    .markdown-section tr:hover td {
-      background: rgba(20, 184, 166, 0.05);
-    }
-    
-    /* Code blocks */
-    .markdown-section code {
-      background: #f1f5f9;
-      color: #0f172a;
-      padding: 0.2em 0.4em;
-      border-radius: 4px;
-      font-size: 0.9em;
-    }
-    
-    .markdown-section pre {
-      background: #1e293b !important;
-      border-radius: 8px;
-      padding: 1rem;
-    }
-    
-    .markdown-section pre code {
-      background: transparent;
-      color: #e2e8f0;
-    }
-    
-    /* Progress bar */
-    .progress {
-      background: var(--progress-color) !important;
-    }
-    
-    /* Cover page */
     .cover {
       background: var(--cover-background-color) !important;
     }
     
-    .cover h1 {
-      color: #ffffff;
-      font-size: 3rem;
+    .cover-main {
+      max-width: 700px;
     }
     
-    .cover p {
-      color: rgba(255, 255, 255, 0.9);
+    .cover h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+    }
+    
+    .cover h1 img {
+      width: 64px;
+      height: 64px;
+      filter: brightness(0) invert(1);
     }
     
     .cover .btn {
-      background: #14b8a6;
-      color: white;
-      border: none;
       border-radius: 8px;
-      padding: 0.75rem 2rem;
       font-weight: 600;
     }
     
-    .cover .btn:hover {
-      background: #0d9488;
+    #docsify-darklight-theme {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--theme-color);
+      color: white;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
     }
     
-    /* Blockquotes */
-    .markdown-section blockquote {
-      border-left: 4px solid var(--theme-color);
-      background: rgba(20, 184, 166, 0.1);
-      padding: 1rem;
-      margin: 1rem 0;
-      border-radius: 0 8px 8px 0;
-    }
-    
-    /* App name in sidebar */
-    .app-name-link {
-      font-weight: 700;
-      color: var(--theme-color) !important;
+    .progress {
+      background: var(--theme-color) !important;
+      height: 3px !important;
     }
   </style>
 </head>
@@ -169,59 +148,58 @@
   <div id="app">Loading...</div>
   <script>
     window.$docsify = {
-      name: '🤖 Hyver',
-      repo: 'https://github.com/DressPD/Hyver_DOCS',
+      name: '<img src="assets/logo.svg" alt="Hyver">Hyver',
       loadSidebar: true,
       subMaxLevel: 3,
       coverpage: true,
       auto2top: true,
       
-      // Search
       search: {
-        placeholder: '🔍 Search docs...',
+        placeholder: 'Search docs...',
         noData: 'No results found',
-        depth: 3,
-        pathNamespaces: '/'
+        depth: 3
       },
       
-      // Progress bar
+      copyCode: {
+        buttonText: 'Copy',
+        successText: 'Copied!'
+      },
+      
+      pagination: {
+        previousText: '← Previous',
+        nextText: 'Next →'
+      },
+      
       progress: {
         position: 'top',
         color: '#14b8a6',
         height: '3px'
       },
       
-      // Copy code
-      copyCode: {
-        buttonText: '📋 Copy',
-        successText: '✅ Copied!'
-      },
+      themeColor: '#14b8a6',
       
-      // Pagination
-      pagination: {
-        previousText: '← Previous',
-        nextText: 'Next →'
-      },
-      
-      // Emoji
-      emoji: true
+      darklightTheme: {
+        siteFont: 'system-ui, -apple-system, sans-serif',
+        defaultTheme: 'light',
+        dark: {
+          background: '#0f172a',
+          highlightColor: '#14b8a6'
+        },
+        light: {
+          background: '#ffffff',
+          highlightColor: '#14b8a6'
+        }
+      }
     }
   </script>
   
-  <!-- Core -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
-  
-  <!-- Plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/emoji.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
-  
-  <!-- Dark mode toggle -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/main.min.js"></script>
-  
-  <!-- Syntax highlighting -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
