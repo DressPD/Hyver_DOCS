@@ -1,0 +1,25 @@
+tts --text "عامل ايه ياحاج حسام, البت توتى عاملة معاك ايه؟ دى بنت حلوة وشقية قوي. شدى حيلك فى المسابقة ياتوتى" `
+    --model_name "tts_models/multilingual/multi-dataset/xtts_v2" `
+    --language_idx en `
+    --speaker_wav samples\ar-eg_elsisi.wav `
+    --out_path output\trump_output.wav
+---------------------------------------------------------------------------
+
+tts --text "Imagine having a team of AI experts ready to work for you 24/7… writing code, analyzing data, researching, and even managing your workflows. That’s exactly what Hyver does." `
+    --model_name "tts_models/multilingual/multi-dataset/xtts_v2" `
+    --language_idx en `
+    --speaker_wav samples\en-us_trump.wav `
+    --out_path output\trump_hyver_output.wav
+----------------------------------------------------------------------------
+tts --text "Immagina di avere un team di esperti di intelligenza artificiale pronto a lavorare per te 24 ore su 24, 7 giorni su 7… scrivendo codice, analizzando dati, facendo ricerche e persino gestendo i tuoi flussi di lavoro. Questo è esattamente ciò che fa Hyver." `
+--model_name "tts_models/multilingual/multi-dataset/xtts_v2" `
+--language_idx it `
+--speaker_wav samples\en-us_trump.wav `
+--out_path output\it.wav
+
+----------------------------------------------------------------------------
+tts --text "Stell dir vor, du hättest ein Team von KI-Experten, das rund um die Uhr für dich arbeitet… Code schreibt, Daten analysiert, Recherchen durchführt und sogar deine Arbeitsabläufe verwaltet. Genau das macht Hyver." `
+--model_name "tts_models/multilingual/multi-dataset/xtts_v2" `
+--language_idx de `
+--speaker_wav samples\en-us_trump.wav `
+--out_path output\de.wav
