@@ -13,7 +13,7 @@ Manage your account information.
 
 Your display name shown throughout Hyver:
 - In chats
-- On shared agents/companies
+- On shared agents/skills
 - In account areas
 
 To change:

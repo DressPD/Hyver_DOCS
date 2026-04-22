@@ -16,7 +16,7 @@ If the AI is taking too long or going in the wrong direction:
 
 ## Mentions
 
-You can bring agents, companies, or tools into your conversation:
+You can bring agents, skills, or tools into your conversation:
 
 1. Type `@` anywhere in your message
 2. A dropdown appears with available entities
