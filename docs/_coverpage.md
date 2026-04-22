@@ -8,7 +8,7 @@ Build intelligent workflows with custom AI agents, multi-agent teams, and powerf
 
 - 💬 **Chat** — Converse with AI models directly or through specialized agents
 - 🤖 **Agents** — Create custom AI assistants with knowledge bases and tools  
-- 🏢 **Companies** — Assemble multi-agent teams that collaborate seamlessly
+- ✨ **Skills** — Launch reusable prompt systems for fast, repeatable workflows
 - 🔧 **Tools** — Connect Google Workspace, Slack, and other external services
 
 [Get Started](getting-started/overview.md)

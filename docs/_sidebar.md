@@ -14,10 +14,10 @@
   - [Create Agent](agents/create.md)
   - [Configure Agent](agents/configure.md)
   - [Knowledge Base](agents/knowledge-base.md)
-- Companies
-  - [Overview](companies/overview.md)
-  - [Create Company](companies/create.md)
-  - [Routing Strategies](companies/routing.md)
+- Skills
+  - [Overview](skills/overview.md)
+  - [Browse Skills](skills/browse.md)
+  - [Create Skill](skills/create.md)
 - Tools
   - [Overview](tools/overview.md)
   - [Connect Credentials](tools/credentials.md)

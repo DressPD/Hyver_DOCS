@@ -2,7 +2,7 @@
 
 Welcome to Hyver - your AI Agent Platform.
 
-Hyver lets you chat with AI models, build custom agents, assemble multi-agent teams (Companies), and connect external tools to automate your workflows.
+Hyver lets you chat with AI models, build custom agents, launch reusable skills, and connect external tools to automate your workflows.
 
 ## Quick Navigation
 
@@ -11,7 +11,7 @@ Hyver lets you chat with AI models, build custom agents, assemble multi-agent te
 | [Getting Started](getting-started/overview.md) | Create account, sign in, first steps |
 | [Chat](chat/overview.md) | Send messages, attach files, configure chat settings |
 | [Agents](agents/overview.md) | Browse, create, and configure AI agents |
-| [Companies](companies/overview.md) | Build multi-agent teams |
+| [Skills](skills/overview.md) | Create reusable prompt systems |
 | [Tools](tools/overview.md) | Connect external services and APIs |
 | [Tasks](tasks/overview.md) | Track running jobs and session history |
 | [Notifications](notifications/overview.md) | Manage alerts and updates |
@@ -24,7 +24,7 @@ Hyver is an AI platform where you can:
 
 - **Chat** with AI models directly or through specialized agents
 - **Create Agents** with custom instructions, knowledge bases, and tools
-- **Build Companies** - multi-agent teams that work together
+- **Create Skills** - reusable prompt systems for your fastest workflows
 - **Connect Tools** - integrate external APIs like Google Workspace, Slack, and more
 - **Track Tasks** - monitor long-running AI jobs
 - **Manage Subscriptions** - control your usage and billing
