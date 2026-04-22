@@ -18,13 +18,13 @@ Welcome to Hyver! This guide will help you get up and running quickly.
 Hyver is organized around a few core concepts:
 
 ### Chat
-The main workspace where you interact with AI. You can chat with models directly, or bring in agents, companies, and tools.
+The main workspace where you interact with AI. You can chat with models directly, or bring in agents, skills, and tools.
 
 ### Agents
 Custom AI personalities with specific instructions, knowledge, and capabilities. Browse the marketplace or create your own.
 
-### Companies
-Multi-agent teams that work together. Route tasks to the right agent automatically.
+### Skills
+Reusable prompt systems for recurring workflows. Launch proven instructions instantly and adapt them to your needs.
 
 ### Tools
 External integrations (Google Workspace, Slack, etc.) that agents can use to take actions in the real world.

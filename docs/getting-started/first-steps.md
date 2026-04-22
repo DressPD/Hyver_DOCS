@@ -7,7 +7,7 @@ After signing in, you'll land in the **Chat** workspace. Here's how to get start
 When you open a new chat, you'll see:
 
 - A **welcome message** from Hyver
-- **Quick-start suggestions** - agents, companies, or tools you can try immediately
+- **Quick-start suggestions** - agents, skills, or tools you can try immediately
 
 ## Start Your First Chat
 
@@ -28,7 +28,7 @@ The AI will respond directly. This is the simplest way to use Hyver.
 
 ### Option 3: Mention an Entity
 
-While typing, you can mention agents, tools, or companies:
+While typing, you can mention agents, tools, or skills:
 
 1. Type `@` in the message box
 2. A dropdown appears with available entities
@@ -42,7 +42,7 @@ While typing, you can mention agents, tools, or companies:
 - **Chat** - Your conversations
 - **Tasks** - Running and completed jobs
 - **Agents** - Browse and manage agents
-- **Companies** - Multi-agent teams
+- **Skills** - Reusable prompt systems
 - **Tools** - External integrations
 
 ### Chat Area (Center)
