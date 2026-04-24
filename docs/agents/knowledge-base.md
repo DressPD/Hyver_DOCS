@@ -6,7 +6,7 @@ Give your agents access to custom documents and data.
 
 A knowledge base is a collection of documents that your agent can reference:
 
-- **Company docs** - Policies, procedures, product info
+- **Internal docs** - Policies, procedures, product info
 - **Research papers** - Technical references
 - **Data files** - CSVs, JSON, structured data
 - **Manuals** - User guides, technical docs

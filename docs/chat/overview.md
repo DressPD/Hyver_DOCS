@@ -21,7 +21,7 @@ At the bottom of the screen:
 - **Send button** - Send your message (or press Enter)
 - **Stop button** - Interrupt a response in progress
 - **Attachment button** - Add files to your message
-- **Mentions** - Type `@` to mention agents, tools, or companies
+- **Mentions** - Type `@` to mention agents, tools, or skills
 
 ### Navigation Sidebar
 Quick access to recent chats and other sections.
@@ -31,7 +31,7 @@ Quick access to recent chats and other sections.
 ### New Chat
 Click the **New Chat** button in the navigation to start fresh.
 
-### From Agents/Companies/Tools
+### From Agents/Skills/Tools
 When browsing entities, click **Chat** to start a conversation with that entity pre-selected.
 
 ## Managing Chats

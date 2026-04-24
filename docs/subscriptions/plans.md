@@ -42,7 +42,7 @@ Hyver offers tiered plans to match your needs:
 |---------|------|-------|-----|------------|
 | Weekly Credits | Limited | Standard | High | Custom |
 | Agents | ✓ | ✓ | ✓ | ✓ |
-| Companies | ✓ | ✓ | ✓ | ✓ |
+| Skills | ✓ | ✓ | ✓ | ✓ |
 | Tools | Limited | Full | Full | Full |
 | Knowledge Base | - | ✓ | ✓ | ✓ |
 | Priority Support | - | - | ✓ | ✓ |
