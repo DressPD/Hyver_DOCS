@@ -2,69 +2,144 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hyver User Guide</title>
-  <meta name="description" content="Hyver User Guide - Learn how to use Hyver AI agents, tools, and chat">
+  <title>Hyver Docs</title>
+  <meta name="description" content="Hyver User Guide — Chat with AI, manage your knowledge base, create skills, and track tasks">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#00b7a8">
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.min.css">
   
   <style>
     :root {
+      --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-family-mono: 'JetBrains Mono', 'Fira Code', monospace;
+      
       --hyver-primary: #00b7a8;
-      --hyver-primary-hover: #00d4c4;
-      --hyver-gradient: linear-gradient(135deg, #00b7a8 0%, #10b981 100%);
+      --hyver-primary-dark: #009e91;
+      --hyver-primary-light: #00d4c4;
+      --hyver-glow: rgba(0, 183, 168, 0.18);
       
       --theme-color: #00b7a8;
       --base-background-color: #ffffff;
-      --base-color: #334155;
-      --heading-color: #0f172a;
-      --text-color-base: #334155;
+      --base-color: #374151;
+      --heading-color: #111827;
+      --text-color-base: #374151;
       --mono-hue: 170;
       --mono-saturation: 70%;
       
-      --sidebar-background: #f8fafc;
-      --sidebar-nav-link-color: #334155;
+      --sidebar-background: #f9fafb;
+      --sidebar-border-color: #f0f0f0;
+      --sidebar-nav-link-color: #4b5563;
       --sidebar-nav-link-color--active: #00b7a8;
       --sidebar-nav-link-border-color--active: #00b7a8;
-      --sidebar-name-color: #00b7a8;
+      --sidebar-nav-link-font-weight--active: 600;
+      --sidebar-name-color: #111827;
       
       --link-color: #00b7a8;
-      --link-color--hover: #00d4c4;
+      --link-color--hover: #009e91;
+      --link-text-decoration: none;
       
-      --search-input-border-color: #e2e8f0;
+      --search-input-border-color: #e5e7eb;
       --search-input-border-color--focus: #00b7a8;
+      --search-input-background-color: #f9fafb;
       
       --blockquote-border-color: #00b7a8;
-      --blockquote-background: rgba(0, 183, 168, 0.08);
+      --blockquote-background: rgba(0, 183, 168, 0.07);
       
-      --table-head-background: #00b7a8;
+      --table-head-background: #111827;
       --table-head-color: #ffffff;
+      --table-row-odd-background: #f9fafb;
+      --table-cell-border-color: #e5e7eb;
+      
+      --code-inline-background: rgba(0, 183, 168, 0.08);
+      --code-inline-color: #00917d;
+      --code-font-size: 0.87em;
+      
+      --base-font-size: 15.5px;
+      --base-line-height: 1.75;
+      --content-max-width: 860px;
     }
     
     html[data-theme='dark'] {
-      --base-background-color: #0f0f0f;
-      --base-color: #e2e8f0;
-      --heading-color: #fafafa;
-      --text-color-base: #cbd5e1;
-      --sidebar-background: #1a1a1a;
-      --sidebar-nav-link-color: #94a3b8;
-      --code-theme-background: #1a1a1a;
-      --code-theme-text: #e2e8f0;
-      --code-inline-background: #2d2d2d;
-      --code-inline-color: #e2e8f0;
-      --table-row-odd-background: rgba(45, 45, 45, 0.5);
-      --table-cell-border-color: #2d2d2d;
-      --blockquote-background: rgba(0, 183, 168, 0.12);
+      --base-background-color: #0d0d0f;
+      --base-color: #d1d5db;
+      --heading-color: #f9fafb;
+      --text-color-base: #d1d5db;
+      --sidebar-background: #111113;
+      --sidebar-border-color: #1f1f23;
+      --sidebar-nav-link-color: #9ca3af;
+      --sidebar-name-color: #f9fafb;
+      --search-input-background-color: #1a1a1e;
+      --search-input-border-color: #2a2a30;
+      --code-theme-background: #161618;
+      --code-theme-text: #e5e7eb;
+      --code-inline-background: rgba(0, 183, 168, 0.1);
+      --code-inline-color: #34d399;
+      --table-head-background: #1f1f23;
+      --table-row-odd-background: rgba(255,255,255,0.03);
+      --table-cell-border-color: #2a2a30;
+      --blockquote-background: rgba(0, 183, 168, 0.1);
     }
     
-    .sidebar-nav > ul > li > a { font-weight: 600; }
-    .app-name-link { display: flex; align-items: center; gap: 8px; font-weight: 700; }
-    .app-name-link img { width: 28px; height: 28px; }
-    .markdown-section h1:first-child { color: var(--theme-color); border-bottom: 2px solid var(--theme-color); padding-bottom: 0.5rem; }
-    .markdown-section table th { background: var(--theme-color); color: white; }
-    .progress { background: var(--theme-color) !important; height: 3px !important; }
+    /* ── Fonts ── */
+    body, .sidebar-nav, .sidebar, input { font-family: var(--font-family) !important; }
+    code, pre, pre code { font-family: var(--font-family-mono) !important; }
+    
+    /* ── Sidebar ── */
+    .sidebar { border-right: 1px solid var(--sidebar-border-color) !important; }
+    .sidebar-nav > ul > li > a {
+      font-size: 0.73rem !important;
+      font-weight: 700 !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.08em !important;
+      color: #9ca3af !important;
+      pointer-events: none;
+    }
+    .sidebar-nav li a { border-radius: 7px; padding: 5px 12px !important; font-size: 0.875rem !important; transition: background 0.12s, color 0.12s; }
+    .sidebar-nav li a:hover { background: rgba(0, 183, 168, 0.08) !important; color: var(--hyver-primary) !important; text-decoration: none !important; }
+    .sidebar-nav li.active > a { background: rgba(0, 183, 168, 0.1) !important; font-weight: 600 !important; }
+    .app-name-link { display: flex; align-items: center; gap: 10px; font-weight: 700 !important; letter-spacing: -0.02em; }
+    .app-name-link img { width: 26px; height: 26px; }
+    
+    /* ── Content ── */
+    .markdown-section { max-width: var(--content-max-width) !important; padding: 2rem 3rem !important; font-size: var(--base-font-size) !important; line-height: var(--base-line-height) !important; }
+    @media (max-width: 768px) { .markdown-section { padding: 1.25rem 1.25rem !important; } }
+    .markdown-section h1 { font-size: 2rem !important; font-weight: 800 !important; letter-spacing: -0.03em !important; border-bottom: 1px solid #e5e7eb !important; padding-bottom: 0.75rem !important; margin-bottom: 1.5rem !important; color: var(--heading-color) !important; }
+    html[data-theme='dark'] .markdown-section h1 { border-bottom-color: #1f1f23 !important; }
+    .markdown-section h2 { font-size: 1.35rem !important; font-weight: 700 !important; letter-spacing: -0.02em !important; margin-top: 2.5rem !important; color: var(--heading-color) !important; }
+    .markdown-section h3 { font-size: 1.05rem !important; font-weight: 600 !important; margin-top: 1.75rem !important; color: var(--heading-color) !important; }
+    .markdown-section a { font-weight: 500; text-underline-offset: 3px; }
+    .markdown-section ul li::marker, .markdown-section ol li::marker { color: var(--hyver-primary); }
+    
+    /* ── Tables ── */
+    .markdown-section table { border-radius: 10px !important; overflow: hidden !important; border: 1px solid var(--table-cell-border-color) !important; border-collapse: separate !important; border-spacing: 0 !important; font-size: 0.9rem !important; margin: 1.25rem 0 !important; }
+    .markdown-section table th { font-weight: 600 !important; font-size: 0.78rem !important; text-transform: uppercase !important; letter-spacing: 0.05em !important; padding: 0.75rem 1rem !important; }
+    .markdown-section table td { padding: 0.7rem 1rem !important; }
+    
+    /* ── Code ── */
+    .markdown-section pre { border-radius: 10px !important; border: 1px solid #e5e7eb !important; margin: 1.25rem 0 !important; }
+    html[data-theme='dark'] .markdown-section pre { border-color: #2a2a30 !important; }
+    .markdown-section pre > code { font-size: 0.85em !important; line-height: 1.65 !important; }
+    .markdown-section code { border-radius: 4px !important; padding: 0.15em 0.45em !important; font-size: 0.875em !important; }
+    
+    /* ── Blockquote ── */
+    .markdown-section blockquote { border-radius: 10px; border-left: 3px solid var(--hyver-primary) !important; padding: 1rem 1.25rem !important; margin: 1.5rem 0 !important; }
+    
+    /* ── Pagination ── */
+    .pagination-item a { border-radius: 10px !important; border: 1px solid var(--table-cell-border-color) !important; padding: 0.75rem 1.25rem !important; font-size: 0.875rem !important; font-weight: 500 !important; transition: all 0.15s !important; background: var(--base-background-color) !important; }
+    .pagination-item a:hover { border-color: var(--hyver-primary) !important; color: var(--hyver-primary) !important; text-decoration: none !important; }
+    
+    /* ── Progress bar ── */
+    .progress { background: var(--theme-color) !important; height: 2px !important; }
+    
+    /* ── Page fade-in ── */
+    .content { animation: fadeIn 0.2s ease; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
     
     section.cover {
       background: linear-gradient(160deg, #0a0a0a 0%, #0f0f0f 30%, #0d2d2a 60%, #00b7a8 100%) !important;
@@ -190,37 +265,25 @@
     }
     
     section.cover .btn {
-      background: linear-gradient(135deg, #00b7a8 0%, #10b981 100%);
-      color: white;
+      background: linear-gradient(135deg, #00b7a8 0%, #00d4c4 100%);
+      color: #0a0a10;
+      font-weight: 700;
       border: none;
-      border-radius: 14px;
-      padding: 1.1rem 3rem;
-      font-size: 1.15rem;
-      font-weight: 600;
+      border-radius: 12px;
+      padding: 0.95rem 2.75rem;
+      font-size: 1rem;
+      letter-spacing: -0.01em;
       text-transform: none;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      box-shadow: 0 8px 30px -5px rgba(0, 183, 168, 0.5);
-      position: relative;
-      overflow: hidden;
-    }
-    
-    section.cover .btn::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: -100%;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-      transition: left 0.5s;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 8px 24px -4px rgba(0, 183, 168, 0.45);
+      display: inline-block;
+      text-decoration: none;
     }
     
     section.cover .btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 12px 40px -5px rgba(0, 183, 168, 0.6);
+      transform: translateY(-2px);
+      box-shadow: 0 14px 32px -4px rgba(0, 183, 168, 0.55);
     }
-    
-    section.cover .btn:hover::before { left: 100%; }
     
     @media (max-width: 600px) {
       section.cover h1 { font-size: 2.8rem; }
@@ -234,24 +297,24 @@
       bottom: 24px;
       right: 24px;
       z-index: 9999;
-      width: 50px;
-      height: 50px;
+      width: 44px;
+      height: 44px;
       border-radius: 50%;
-      background: linear-gradient(135deg, #00b7a8 0%, #10b981 100%);
+      background: var(--hyver-primary);
       color: white;
       border: none;
       cursor: pointer;
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 6px 25px rgba(0, 183, 168, 0.45);
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      font-size: 1.4rem;
+      box-shadow: 0 4px 20px rgba(0, 183, 168, 0.4);
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      font-size: 1.15rem;
     }
     
     .theme-toggle:hover {
-      transform: scale(1.12);
-      box-shadow: 0 10px 35px rgba(0, 183, 168, 0.55);
+      transform: scale(1.1);
+      box-shadow: 0 8px 28px rgba(0, 183, 168, 0.5);
     }
     
     .theme-toggle .icon-sun, .theme-toggle .icon-moon {

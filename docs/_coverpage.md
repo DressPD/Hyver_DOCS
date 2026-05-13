@@ -2,13 +2,13 @@
 
 # Hyver
 
-> Your AI Agent Platform
+> Your AI workspace
 
-Build intelligent workflows with custom AI agents, multi-agent teams, and powerful tool integrations.
+Chat with AI, build a personal knowledge base, save reusable skills, and track every job.
 
-- 💬 **Chat** — Converse with AI models directly or through specialized agents
-- 🤖 **Agents** — Create custom AI assistants with knowledge bases and tools  
-- ✨ **Skills** — Launch reusable prompt systems for fast, repeatable workflows
-- 🔧 **Tools** — Connect Google Workspace, Slack, and other external services
+- 💬 **Chat** — Converse with AI using web search, reasoning, and file context
+- 🗂️ **Files** — Upload documents into your knowledge base for AI-powered retrieval
+- ✨ **Skills** — Save prompt templates and launch them instantly with `@`
+- ✅ **Tasks** — Monitor and manage all your AI jobs in one place
 
 [Get Started](getting-started/overview.md)
