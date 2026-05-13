@@ -36,16 +36,16 @@ Requires your approval before the AI takes certain actions:
 - **On** - You must approve tool actions, external calls
 - **Off** - AI proceeds automatically
 
-Use this for sensitive operations or when learning what agents do.
+Use this for sensitive operations or when you want to review exactly what the AI is doing before it acts.
 
 ### Knowledge Base
 
-Enables access to the agent's knowledge base documents:
+Enables the AI to reference documents you have uploaded in the **Files** section:
 
-- **On** - AI references uploaded documents
-- **Off** - AI ignores knowledge base
+- **On** - AI searches your knowledge base for relevant context
+- **Off** - AI uses only its training data and the current conversation
 
-Only available when using agents with configured knowledge bases.
+Upload documents first in [Files](../files/overview.md), then enable this toggle to let the AI reference them.
 
 ## File Upload Section
 

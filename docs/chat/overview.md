@@ -1,46 +1,47 @@
 # Chat Overview
 
-Chat is the heart of Hyver - your workspace for interacting with AI.
+Chat is the heart of Hyver — your workspace for interacting with AI.
 
 ## What You Can Do
 
 - **Send messages** to AI models directly
-- **Use agents** with specialized knowledge and capabilities
-- **Attach files** for the AI to analyze
-- **Configure settings** for each conversation
-- **View activity** to see the AI's reasoning process
+- **Attach files** for the AI to analyse in the current message
+- **Mention skills** with `@` to apply a reusable prompt template
+- **Configure settings** for each conversation (model, reasoning, web search, knowledge base)
+- **View activity** to watch the AI's reasoning process in real-time
 
 ## Chat Interface
 
 ### Message Area
-The central area shows your conversation history. Messages appear in order, with your messages on one side and AI responses on the other.
+The central area shows your conversation history. Your messages appear on the right, AI responses on the left, streamed in real-time.
 
 ### Message Composer
 At the bottom of the screen:
-- **Text input** - Type your message
-- **Send button** - Send your message (or press Enter)
-- **Stop button** - Interrupt a response in progress
-- **Attachment button** - Add files to your message
-- **Mentions** - Type `@` to mention agents, tools, or skills
+- **Text input** — Type your message
+- **Send button** — Send your message (or press Enter)
+- **Stop button** — Interrupt a response in progress
+- **Attachment button** — Add files to your message
+- **Skill mentions** — Type `@` to search and add a skill
+- **Slash commands** — Type `/` for quick actions
 
 ### Navigation Sidebar
-Quick access to recent chats and other sections.
+Quick access to recent chats, skills, files, and tasks.
 
 ## Creating Chats
 
 ### New Chat
-Click the **New Chat** button in the navigation to start fresh.
+Click the **New Chat** button in the navigation sidebar to start a fresh conversation.
 
-### From Agents/Skills/Tools
-When browsing entities, click **Chat** to start a conversation with that entity pre-selected.
+### From the Skills Page
+On the **Skills** page, click **Use Skill** or **Chat** on any skill card to open a new chat with that skill's prompt pre-filled.
 
 ## Managing Chats
 
 ### Rename
-Right-click a chat in the sidebar, or use the chat menu to rename.
+Hover over a chat in the sidebar, open its context menu, and select **Rename**.
 
 ### Delete
-Right-click a chat in the sidebar to delete. This cannot be undone.
+Open the chat context menu in the sidebar and select **Delete**. This cannot be undone.
 
 ## Related Topics
 

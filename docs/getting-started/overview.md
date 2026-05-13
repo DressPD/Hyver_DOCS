@@ -15,19 +15,19 @@ Welcome to Hyver! This guide will help you get up and running quickly.
 
 ## Overview
 
-Hyver is organized around a few core concepts:
+Hyver is organised around four sections accessible from the left sidebar:
 
 ### Chat
-The main workspace where you interact with AI. You can chat with models directly, or bring in agents, skills, and tools.
+The main workspace where you interact with AI. Type a message, attach files, mention a skill with `@`, and the AI responds in real-time.
 
-### Agents
-Custom AI personalities with specific instructions, knowledge, and capabilities. Browse the marketplace or create your own.
+### Files
+Your knowledge base. Upload documents (PDF, DOCX, TXT, etc.) into folders. The AI can reference these files when the knowledge base is enabled in chat settings.
 
 ### Skills
-Reusable prompt systems for recurring workflows. Launch proven instructions instantly and adapt them to your needs.
+Reusable prompt templates for recurring workflows. Pick a skill from the marketplace or create your own, then launch it directly into chat.
 
-### Tools
-External integrations (Google Workspace, Slack, etc.) that agents can use to take actions in the real world.
+### Tasks
+A dashboard of all your chat sessions and their status — running, completed, failed, or awaiting your approval.
 
 ## Next Steps
 

@@ -4,13 +4,13 @@ The Activity Pane shows real-time insight into what the AI is doing during compl
 
 ## What is the Activity Pane?
 
-When AI agents work on your request, they often:
+When the AI processes your request it may:
 - Think through problems step by step
-- Call external tools
-- Process information
-- Make decisions
+- Call external tools (web search, file lookup, etc.)
+- Process and synthesise information
+- Make decisions between different approaches
 
-The Activity Pane lets you watch this process unfold.
+The Activity Pane lets you watch this process unfold in real-time.
 
 ## Opening the Activity Pane
 
@@ -30,7 +30,7 @@ A step-by-step view of the AI's thought process:
 
 ### Tool Calls
 
-When agents use external tools:
+When the AI uses external tools (web search, knowledge base lookup, etc.):
 
 - **Tool Name** - Which tool is being called
 - **Input** - What data is sent to the tool
@@ -47,10 +47,10 @@ When agents use external tools:
 
 The Activity Pane is helpful when:
 
-- **Learning** - Understanding how agents work
+- **Learning** - Understanding how the AI approaches your request
 - **Debugging** - Seeing why something didn't work as expected
 - **Complex tasks** - Following multi-step operations
-- **Tool operations** - Verifying external actions
+- **Tool operations** - Verifying external actions before they complete
 
 ## Resizing
 
@@ -62,6 +62,6 @@ The Activity Pane is resizable:
 
 ## Tips
 
-- Collapse when not needed to save screen space
-- Expand during complex agent operations
-- Use reasoning view to understand AI decisions
+- Collapse the pane when not needed to save screen space
+- Expand it during complex or multi-step operations
+- Use the reasoning view to understand how the AI reached a conclusion
