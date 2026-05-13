@@ -6,16 +6,16 @@ Hyver lets you chat with AI models, run reusable skills, manage knowledge base f
 
 ## Quick Navigation
 
-| Section | Description |
-|---------|-------------|
-| [Getting Started](getting-started/overview.md) | Create account, sign in, first steps |
-| [Chat](chat/overview.md) | Send messages, attach files, configure chat settings |
-| [Files](files/overview.md) | Upload and manage knowledge base documents |
-| [Skills](skills/overview.md) | Create and run reusable prompt systems |
-| [Tasks](tasks/overview.md) | Track running jobs and session history |
-| [Notifications](notifications/overview.md) | Manage alerts and updates |
-| [Settings](settings/profile.md) | Profile, theme, language |
-| [Subscriptions](subscriptions/plans.md) | Plans, credits, billing |
+| Section                                        | Description                                          |
+| ---------------------------------------------- | ---------------------------------------------------- |
+| [Getting Started](getting-started/overview.md) | Create account, sign in, first steps                 |
+| [Chat](chat/overview.md)                       | Send messages, attach files, configure chat settings |
+| [Files](files/overview.md)                     | Upload and manage knowledge base documents           |
+| [Skills](skills/overview.md)                   | Create and run reusable prompt systems               |
+| [Tasks](tasks/overview.md)                     | Track running jobs and session history               |
+| [Notifications](notifications/overview.md)     | Manage alerts and updates                            |
+| [Settings](settings/profile.md)                | Profile, theme, language                             |
+| [Subscriptions](subscriptions/plans.md)        | Plans, credits, billing                              |
 
 ## What is Hyver?
 
