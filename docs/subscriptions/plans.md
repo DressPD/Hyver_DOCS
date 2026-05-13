@@ -9,43 +9,45 @@ Choose the right plan for your usage.
 
 ## Available Plans
 
-Hyver offers tiered plans to match your needs:
+Hyver offers four tiered plans, each named after an insect:
 
-### Free Tier
+### Fly (Free)
 
-- Limited credits per week
-- Basic features
-- Good for trying Hyver
+- **20K credits/week**
+- Free forever
+- Basic AI models
+- Community support
 
-### Basic
+### Bee — $20/month
 
-- More credits
-- Standard features
-- Good for regular users
+- **100K credits/week**
+- Standard AI models
+- Community support
 
-### Professional
+### Wasp — $50/month ⭐ Most Popular
 
-- Generous credits
-- Advanced features
-- Good for power users
-
-### Enterprise
-
-- Custom credits
-- Full features
+- **300K credits/week**
+- Premium AI models
 - Priority support
-- Contact sales
+- Priority queue
+
+### Hornet — $200/month
+
+- **2M credits/week**
+- Premium AI models
+- 24/7 support
+- Priority queue
+- Dedicated account manager
 
 ## Plan Comparison
 
-| Feature | Free | Basic | Pro | Enterprise |
-|---------|------|-------|-----|------------|
-| Weekly Credits | Limited | Standard | High | Custom |
-| Agents | ✓ | ✓ | ✓ | ✓ |
-| Skills | ✓ | ✓ | ✓ | ✓ |
-| Tools | Limited | Full | Full | Full |
-| Knowledge Base | - | ✓ | ✓ | ✓ |
-| Priority Support | - | - | ✓ | ✓ |
+| Feature | Fly | Bee | Wasp | Hornet |
+|---------|-----|-----|------|--------|
+| Weekly Credits | 20K | 100K | 300K | 2M |
+| Models | Basic | Standard | Premium | Premium |
+| Support | Community | Email | Premium | 24/7 |
+| Priority Queue | - | - | ✓ | ✓ |
+| Dedicated Manager | - | - | - | ✓ |
 
 ## Billing Periods
 
@@ -57,8 +59,7 @@ Hyver offers tiered plans to match your needs:
 
 ### Annual
 
-- Pay once per year
-- Discounted rate
+- Pay once per year (~20% discount)
 - Best value
 
 ## Changing Plans
@@ -66,17 +67,15 @@ Hyver offers tiered plans to match your needs:
 ### Upgrade
 
 1. Go to **Subscriptions**
-2. Click **Upgrade**
-3. Select new plan
-4. Confirm payment
-5. New plan activates immediately
+2. Click **Upgrade** on the desired plan
+3. Confirm payment
+4. New plan activates immediately
 
 ### Downgrade
 
 1. Go to **Subscriptions**
-2. Click **Change Plan**
-3. Select lower plan
-4. Change takes effect at next billing cycle
+2. Click **Downgrade**
+3. Change takes effect at next billing cycle
 
 ### Cancel
 
@@ -84,9 +83,9 @@ Hyver offers tiered plans to match your needs:
 2. Click **Cancel Subscription**
 3. Confirm cancellation
 4. Access continues until period ends
-5. Can resume anytime before period ends
 
 ## Learn More
 
 - [Credits](credits.md)
 - [Billing](billing.md)
+

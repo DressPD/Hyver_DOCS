@@ -7,7 +7,7 @@ After signing in, you'll land in the **Chat** workspace. Here's how to get start
 When you open a new chat, you'll see:
 
 - A **welcome message** from Hyver
-- **Quick-start suggestions** - agents, skills, or tools you can try immediately
+- **Quick-start suggestions** - skills you can try immediately
 
 ## Start Your First Chat
 
@@ -22,18 +22,18 @@ The AI will respond directly. This is the simplest way to use Hyver.
 ### Option 2: Use a Quick-Start Suggestion
 
 1. Look at the suggestion pills on the welcome screen
-2. Click one that interests you (e.g., an agent name)
-3. That agent will be added to your chat
+2. Click one that interests you (e.g., a skill name)
+3. That skill will be added to your chat
 4. Type your message and send
 
-### Option 3: Mention an Entity
+### Option 3: Mention a Skill
 
-While typing, you can mention agents, tools, or skills:
+While typing, you can mention skills:
 
 1. Type `@` in the message box
-2. A dropdown appears with available entities
+2. A dropdown appears with available skills
 3. Select one to add it to your chat
-4. The AI will use that entity to help answer
+4. The AI will apply that skill to help answer
 
 ## Understanding the Interface
 
@@ -41,9 +41,8 @@ While typing, you can mention agents, tools, or skills:
 
 - **Chat** - Your conversations
 - **Tasks** - Running and completed jobs
-- **Agents** - Browse and manage agents
 - **Skills** - Reusable prompt systems
-- **Tools** - External integrations
+- **Files** - Knowledge base document management
 
 ### Chat Area (Center)
 
@@ -61,5 +60,5 @@ While typing, you can mention agents, tools, or skills:
 Now that you've started chatting:
 
 - [Learn more about chat features](../chat/overview.md)
-- [Browse available agents](../agents/browse.md)
-- [Connect your first tool](../tools/overview.md)
+- [Browse available skills](../skills/overview.md)
+- [Manage your knowledge base files](../files/overview.md)

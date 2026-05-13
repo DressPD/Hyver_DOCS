@@ -1,76 +1,31 @@
 # Tools Overview
 
-Tools connect Hyver agents to external services and APIs.
+> **Admin only.** The Tools section is accessible to Hyver administrators only. Regular users do not see the Tools section in the navigation.
 
-## What are Tools?
+Tools connect Hyver to external services and APIs, enabling the AI to take actions such as sending emails, searching the web, or interacting with third-party platforms.
 
-Tools let agents take actions in the real world:
+## For Administrators
 
-- **Send emails** via Gmail
-- **Create documents** in Google Docs
-- **Manage calendars** in Google Calendar
-- **Post messages** to Slack
-- **Access data** from external APIs
+Administrators manage the tool catalog from the **Tools** page in the sidebar. From there you can:
 
-## How Tools Work
+- Browse and configure available MCP tool servers
+- Connect credentials for each tool
+- Control which tools are available to users
+- Configure OAuth integrations
 
-1. You **connect** your credentials (once)
-2. You **add** tools to agents
-3. Agents **use** tools during chat
-4. You may **approve** sensitive actions
+## For Regular Users
 
-## Tool Categories
+Tools that have been configured by an administrator are available in chat automatically. You do not need to manage tools yourself — they appear as capabilities the AI can use when relevant.
 
-### Productivity
+If a tool requires your personal credentials (for example, to access your Gmail account), you will be prompted to connect them.
 
-- Google Workspace (Gmail, Drive, Calendar, Docs)
-- Microsoft 365
-- Slack
+## Tool Approval (Human Control)
 
-### Development
+If **Human Control** is enabled in chat settings, any tool action requires your approval before it executes:
 
-- GitHub
-- Jira
-- Database access
+1. The AI requests to use a tool
+2. You see the action details
+3. Click **Approve** or **Deny**
+4. The AI continues based on your decision
 
-### Data
-
-- Web search
-- API integrations
-- Custom endpoints
-
-## Credential Requirements
-
-Most tools require authentication:
-
-| Type | Example |
-|------|---------|
-| **API Key** | Simple token you provide |
-| **OAuth** | Sign in with your account |
-| **Basic Auth** | Username and password |
-
-You connect credentials once, then any agent with that tool can use it.
-
-## Using Tools
-
-### Direct Chat
-
-Type `@` in the message box, find a tool, and add it to your chat.
-
-### Via Agents
-
-Agents with tools configured use them automatically when relevant.
-
-## Tool Approval
-
-When **Human Control** is enabled:
-- Agent requests to use a tool
-- You see what action will happen
-- Click **Approve** or **Deny**
-- Agent proceeds based on your decision
-
-## Learn More
-
-- [Browse Tools](browse.md)
-- [Connect Credentials](credentials.md)
-- [OAuth Tools](oauth.md)
+> See [Chat Settings](../chat/settings.md) for how to enable Human Control.

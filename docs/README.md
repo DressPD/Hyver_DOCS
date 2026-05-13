@@ -2,7 +2,7 @@
 
 Welcome to Hyver - your AI Agent Platform.
 
-Hyver lets you chat with AI models, build custom agents, launch reusable skills, and connect external tools to automate your workflows.
+Hyver lets you chat with AI models, run reusable skills, manage knowledge base files, and track your AI workflows.
 
 ## Quick Navigation
 
@@ -10,9 +10,8 @@ Hyver lets you chat with AI models, build custom agents, launch reusable skills,
 |---------|-------------|
 | [Getting Started](getting-started/overview.md) | Create account, sign in, first steps |
 | [Chat](chat/overview.md) | Send messages, attach files, configure chat settings |
-| [Agents](agents/overview.md) | Browse, create, and configure AI agents |
-| [Skills](skills/overview.md) | Create reusable prompt systems |
-| [Tools](tools/overview.md) | Connect external services and APIs |
+| [Files](files/overview.md) | Upload and manage knowledge base documents |
+| [Skills](skills/overview.md) | Create and run reusable prompt systems |
 | [Tasks](tasks/overview.md) | Track running jobs and session history |
 | [Notifications](notifications/overview.md) | Manage alerts and updates |
 | [Settings](settings/profile.md) | Profile, theme, language |
@@ -22,11 +21,10 @@ Hyver lets you chat with AI models, build custom agents, launch reusable skills,
 
 Hyver is an AI platform where you can:
 
-- **Chat** with AI models directly or through specialized agents
-- **Create Agents** with custom instructions, knowledge bases, and tools
+- **Chat** with AI models using Claude (Haiku, Sonnet, Opus)
+- **Upload Files** - build knowledge bases for AI-assisted document workflows
 - **Create Skills** - reusable prompt systems for your fastest workflows
-- **Connect Tools** - integrate external APIs like Google Workspace, Slack, and more
-- **Track Tasks** - monitor long-running AI jobs
+- **Track Tasks** - monitor running and completed AI jobs
 - **Manage Subscriptions** - control your usage and billing
 
 ## Getting Help

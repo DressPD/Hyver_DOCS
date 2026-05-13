@@ -49,6 +49,15 @@ Credits refresh on a weekly cycle:
 - At the start of your billing period
 - Unused credits don't roll over
 
+## Your Weekly Allowance
+
+| Plan | Credits/Week |
+|------|-------------|
+| Fly (Free) | 20K |
+| Bee | 100K |
+| Wasp | 300K |
+| Hornet | 2M |
+
 ## Running Low?
 
 ### During the Week

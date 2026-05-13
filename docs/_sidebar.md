@@ -1,31 +1,27 @@
 - [Home](/)
 - Getting Started
   - [Overview](getting-started/overview.md)
-  - [Create Account](getting-started/create-account.md)
+  - [Create Account](getting-started/signup.md)
   - [First Steps](getting-started/first-steps.md)
 - Chat
   - [Overview](chat/overview.md)
-  - [Sending Messages](chat/sending-messages.md)
+  - [Sending Messages](chat/messages.md)
   - [Attachments](chat/attachments.md)
   - [Chat Settings](chat/settings.md)
-- Agents
-  - [Overview](agents/overview.md)
-  - [Browse Agents](agents/browse.md)
-  - [Create Agent](agents/create.md)
-  - [Configure Agent](agents/configure.md)
-  - [Knowledge Base](agents/knowledge-base.md)
+- Files
+  - [Overview](files/overview.md)
+  - [Uploading Files](files/upload.md)
+  - [Managing Documents](files/manage.md)
 - Skills
   - [Overview](skills/overview.md)
   - [Browse Skills](skills/browse.md)
   - [Create Skill](skills/create.md)
-- Tools
-  - [Overview](tools/overview.md)
-  - [Connect Credentials](tools/credentials.md)
-  - [OAuth Tools](tools/oauth.md)
 - Tasks
   - [Overview](tasks/overview.md)
-  - [Job Status](tasks/job-status.md)
-- Account
-  - [Settings](account/settings.md)
-  - [Notifications](account/notifications.md)
-  - [Subscriptions](account/subscriptions.md)
+  - [Task Status](tasks/status.md)
+  - [Managing Tasks](tasks/manage.md)
+- Settings
+  - [Profile](settings/profile.md)
+  - [Appearance](settings/appearance.md)
+  - [Notifications](notifications/overview.md)
+  - [Subscriptions](subscriptions/plans.md)

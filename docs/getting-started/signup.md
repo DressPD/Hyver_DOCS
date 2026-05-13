@@ -15,16 +15,7 @@
 
 4. Click **Create Account**
 
-## Verify Your Email
-
-After signing up, you'll receive a verification email:
-
-1. Check your inbox for an email from Hyver
-2. Find the 6-digit verification code
-3. Enter the code on the confirmation page
-4. Click **Verify**
-
-> **Tip:** Check your spam folder if you don't see the email within a few minutes.
+Your account is created immediately — no email verification step required.
 
 ## Beta Access
 
@@ -37,6 +28,6 @@ Hyver may require approval before you can access the platform:
 
 ## What's Next?
 
-Once your account is verified and approved:
+Once your account is created and approved:
 - [Sign in to Hyver](login.md)
 - [Take your first steps](first-steps.md)
