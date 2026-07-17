@@ -1,67 +1,33 @@
 # Theme & Language Settings
 
-Customize the appearance and language of Hyver.
+Adjust Hyver's appearance and language from **Settings → Website Settings**.
 
 ## Accessing Settings
 
-1. Go to **Settings** in the navigation
-2. Find **Appearance** or **Preferences** section
+1. Open **Settings** from your account menu
+2. Scroll to the **Website Settings** card
 
 ## Theme
 
-Choose your preferred color scheme:
+Use the theme button to switch between **Light** and **Dark** mode. The change applies immediately and is remembered next time.
 
-### Light Mode
-
-- Bright background
-- Dark text
-- Classic appearance
-
-### Dark Mode
-
-- Dark background
-- Light text
-- Easier on eyes in low light
-
-### System
-
-- Automatically matches your device setting
-- Changes with system theme
-
-To change:
-1. Find the **Theme** option
-2. Select your preference
-3. Change applies immediately
+- **Light** — bright background, dark text
+- **Dark** — dark background, light text; easier on the eyes in low light
 
 ## Language
 
-Change the interface language:
-
-### Available Languages
-
-- English
-- German
-- (Additional languages as supported)
-
-To change:
-1. Find the **Language** option
-2. Select your preferred language
-3. Interface updates to new language
+Pick your interface language from the **Language** dropdown. The interface updates immediately. Hyver ships with several languages, including English and German.
 
 ### What Changes
 
-- All interface text
-- Buttons and labels
-- Help text and tooltips
+- Interface text, buttons, labels, and tooltips
 
 ### What Doesn't Change
 
 - Your chat content
-- AI responses (use instructions to request language)
-- User-generated content
+- AI responses — ask in your message if you want replies in a specific language
 
 ## Tips
 
-- Use Dark Mode to reduce eye strain
-- Match System theme for automatic switching
-- Set language to match your preference
+- Use Dark mode to reduce eye strain in low light
+- Your language choice affects the interface only, not the AI's replies

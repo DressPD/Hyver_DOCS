@@ -33,10 +33,10 @@ Enable for questions about recent events or specific facts.
 
 Requires your approval before the AI takes certain actions:
 
-- **On** - You must approve tool actions, external calls
+- **On** - You must approve each tool action before it runs
 - **Off** - AI proceeds automatically
 
-Use this for sensitive operations or when you want to review exactly what the AI is doing before it acts.
+When it's on and the AI wants to use a tool, an **approval banner** appears in the chat with **Approve** / **Deny**. Pending approvals also show up on the **Tasks** page under **Needs Approval**. Use this for sensitive operations or when you want to review exactly what the AI is doing before it acts.
 
 ### Knowledge Base
 
@@ -57,12 +57,9 @@ In settings, you can also manage session files:
 
 See [File Attachments](attachments.md) for details.
 
-## Per-Chat vs Default Settings
+## Per-Chat Settings
 
-Settings are saved per chat:
-- Each chat remembers its own settings
-- New chats start with your default preferences
-- Change defaults in account settings
+Settings are saved per chat — each conversation remembers its own toggles, so you can keep reasoning on in one chat and web search off in another.
 
 ## Tips
 

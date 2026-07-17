@@ -1,91 +1,37 @@
 # Task Status
 
-Understanding task states and what they mean.
+Every task falls into one of five states, shown as tiles at the top of the Tasks page and as sections in the feed.
 
-## Status Types
+## Needs Approval
 
-### Processing
+Human Control is on and the AI is waiting for your permission to use a tool.
 
-The AI is actively working:
-- Generating a response
-- Running tool operations
-- Thinking through complex problems
+**What you can do:** **Approve** or **Reject** the requested action right on the card, or open the task to review it first.
 
-**What you can do:**
-- Watch progress in chat
-- Wait for completion
-- Cancel if needed
+## In Progress
 
-### Awaiting Approval
+The task is actively running — the AI is generating a response or using tools.
 
-Human Control is enabled and the AI needs your permission:
-- Tool action requested
-- External operation pending
+**What you can do:** **Open** it to watch progress, or **Cancel** to stop it.
 
-**What you can do:**
-- Open the chat
-- Review the requested action
-- Approve or deny
+## Failed
 
-### Completed
+Something went wrong — an error, a timeout, or a processing problem.
 
-The operation finished successfully:
-- Response delivered
-- All operations done
-- No further action needed
+**What you can do:** **Retry** to run the last prompt again, **Open** to see the error, or delete the task.
 
-**What you can do:**
-- Review the results
-- Continue the conversation
-- Archive if done
+## Scheduled
 
-### Failed
+A recurring task set to run automatically on a schedule.
 
-Something went wrong:
-- External service error
-- Timeout occurred
-- Processing problem
+**What you can do:** edit the schedule, **Pause** / resume it, **Open** the linked chat, or delete it.
 
-**What you can do:**
-- Check the error message
-- Retry the operation
-- Contact support if persistent
+## Completed
 
-### Cancelled
+The task finished successfully.
 
-You stopped the operation:
-- Manually cancelled
-- Session terminated
+**What you can do:** **Open** it to read the result, **Save as Skill** to reuse the prompt, or delete it.
 
-**What you can do:**
-- Start a new conversation
-- Review partial results
+## Filtering by Status
 
-### Idle
-
-Session exists but nothing is happening:
-- Waiting for your next message
-- No active processing
-
-### Archived
-
-Old session moved to storage:
-- Still accessible
-- Not in active list
-
-## Status Indicators
-
-In the Tasks list, status shows as:
-
-- 🟢 Completed
-- 🔵 Processing
-- 🟡 Awaiting Approval
-- 🔴 Failed
-- ⚫ Cancelled / Idle
-
-## Status Changes
-
-Tasks automatically update:
-- Refresh happens regularly
-- Status changes appear in real-time
-- Notifications sent for important changes
+Click any stat tile to show only that state; the **Total** tile (with **Show all**) clears the filter. Relative timestamps like "2m ago" and "Next run: in 3h" refresh automatically, and the feed updates as job statuses change.

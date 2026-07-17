@@ -1,57 +1,33 @@
 # Notification Settings
 
-Control how and when you receive notifications.
+Choose which notifications you receive.
 
 ## Accessing Settings
 
-1. Go to **Settings** in the navigation
-2. Find the **Notifications** section
-3. Configure your preferences
+1. Open **Settings** from your account menu
+2. Scroll to the **Notifications** card
 
-## Notification Channels
+Changes save automatically as you toggle each option — there's no separate save button.
 
-### In-App Notifications
+## Email Notifications
 
-Notifications appear in the Hyver interface:
-- Badge count on notification icon
-- Notification list page
-- Always available
+Delivered to your account email:
 
-### Email Notifications
-
-Receive notifications via email:
-- Delivered to your account email
-- Can be enabled/disabled
-- Configurable by type
-
-## Configurable Options
-
-### Email Preferences
-
-| Setting | Description |
-|---------|-------------|
-| **Task Complete** | Email when jobs finish |
-| **Task Failed** | Email when errors occur |
-| **Approval Needed** | Email when action required |
-| **System Updates** | Product announcements |
+| Option | Description |
+|--------|-------------|
+| **Product Update** | News about new features and improvements |
 | **Marketing** | Newsletters and tips |
 
-Toggle each on or off based on preference.
+## In-App Notifications
 
-### Frequency
+Shown inside Hyver (the badge and the Notifications page):
 
-Some options support frequency settings:
-- **Immediate** - Send right away
-- **Daily digest** - Summary once per day
-- **Weekly digest** - Summary once per week
-
-## Saving Changes
-
-Changes save automatically as you toggle options.
+| Option | Description |
+|--------|-------------|
+| **System** | Account and system messages |
+| **Agent Run** | Updates about your agent runs and tasks |
 
 ## Tips
 
-- Enable email for critical alerts (failures, approvals)
-- Use digest mode for high-volume notifications
-- Disable marketing if you prefer fewer emails
-- Keep in-app notifications on for real-time awareness
+- Keep **Agent Run** on so you know when your tasks finish or need approval
+- Turn off **Marketing** if you'd prefer fewer emails

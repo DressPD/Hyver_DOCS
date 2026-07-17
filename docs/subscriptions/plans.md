@@ -1,88 +1,64 @@
 # Subscription Plans
 
+> **Coming soon.** Paid subscriptions aren't live yet — the Subscriptions page currently shows a "Coming soon" notice over a preview of the plans. The details below describe the plans as previewed.
+
 Choose the right plan for your usage.
 
 ## Accessing Subscriptions
 
-1. Click **Subscriptions** in the navigation (or Account Menu)
-2. The Subscriptions page shows your current plan and options
+Open **Subscriptions** from your account menu. The page shows your current plan, your credit balance, and the available plans.
 
 ## Available Plans
 
-Hyver offers four tiered plans, each named after an insect:
+Hyver offers four tiers, each named after an insect. Prices are in euros (€).
 
-### Fly (Free)
+### Fly — Free
 
-- **20K credits/week**
-- Free forever
-- Basic AI models
+- **20K tokens/week**
+- Basic models
+- Free forever, no credit card
+
+### Bee — €20/month
+
+- **100K tokens/week**
+- Standard models
 - Community support
 
-### Bee — $20/month
+### Wasp — €200/month ⭐ Most Popular
 
-- **100K credits/week**
-- Standard AI models
-- Community support
+- **300K tokens/week**
+- Premium models
+- Live support
+- Dedicated manager
 
-### Wasp — $50/month ⭐ Most Popular
+### Hornet — Custom
 
-- **300K credits/week**
-- Premium AI models
-- Priority support
-- Priority queue
-
-### Hornet — $200/month
-
-- **2M credits/week**
-- Premium AI models
-- 24/7 support
-- Priority queue
-- Dedicated account manager
+- **Custom token allowance**
+- Premium models
+- Live support and a dedicated manager
+- Onboarding services and custom integrations
+- **Book a demo** — pricing is tailored to your needs
 
 ## Plan Comparison
 
 | Feature | Fly | Bee | Wasp | Hornet |
 |---------|-----|-----|------|--------|
-| Weekly Credits | 20K | 100K | 300K | 2M |
+| Tokens / week | 20K | 100K | 300K | Custom |
 | Models | Basic | Standard | Premium | Premium |
-| Support | Community | Email | Premium | 24/7 |
-| Priority Queue | - | - | ✓ | ✓ |
-| Dedicated Manager | - | - | - | ✓ |
+| Support | Community | Email | Live | Live |
+| Dedicated manager | — | — | ✓ | ✓ |
+| Onboarding services | — | — | — | ✓ |
+| Custom integrations | — | — | — | ✓ |
 
-## Billing Periods
+## Billing Period
 
-### Monthly
-
-- Pay each month
-- Cancel anytime
-- Flexibility
-
-### Annual
-
-- Pay once per year (~20% discount)
-- Best value
+Toggle between **Monthly** and **Annual** at the top of the plans. Annual billing saves about **20%** (for example, Bee is billed at €192/year).
 
 ## Changing Plans
 
-### Upgrade
-
-1. Go to **Subscriptions**
-2. Click **Upgrade** on the desired plan
-3. Confirm payment
-4. New plan activates immediately
-
-### Downgrade
-
-1. Go to **Subscriptions**
-2. Click **Downgrade**
-3. Change takes effect at next billing cycle
-
-### Cancel
-
-1. Go to **Subscriptions**
-2. Click **Cancel Subscription**
-3. Confirm cancellation
-4. Access continues until period ends
+- **Upgrade / Downgrade** — click the button on the plan you want; checkout opens (secured by Stripe), and the change takes effect immediately.
+- **Hornet** — click **Book a demo** and the team will follow up.
+- **Cancel** — from your current-plan card, click **Cancel plan**. Access continues until the end of the period, and you can **resume** any time before it ends.
 
 ## Learn More
 

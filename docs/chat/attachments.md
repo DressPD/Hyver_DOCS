@@ -1,56 +1,40 @@
 # File Attachments
 
-Hyver supports two types of file attachments:
+Hyver supports two kinds of attachments in chat:
 
-1. **Message Attachments** - Files sent with a single message
-2. **Session Files** - Files available throughout the entire chat
+1. **Image attachments** — Images sent with a single message
+2. **Session files** — Documents uploaded to the whole chat session
 
-## Message Attachments
+## Image Attachments
 
-Attach files to a specific message:
+Attach one or more images to the message you're about to send:
 
-1. Click the **Attachment** icon (📎) in the message box
-2. Select files from your device
-3. Files appear as thumbnails below the message box
-4. Send your message - files are included
+1. Click the **Attachment** button in the composer, or **paste** an image directly into the message box
+2. Images appear as thumbnails above the input while they finish processing
+3. Send your message — the images go with it
 
-**Supported file types:**
-- Documents (PDF, DOCX, TXT, etc.)
-- Images (PNG, JPG, GIF, etc.)
-- Data files (CSV, JSON, etc.)
-- Code files
+**Notes:**
+- Common image formats are supported (PNG, JPG, GIF, WebP, and similar)
+- There's a limit on how many images you can attach to a single message
+- Image input is available when the active model supports images; if it doesn't, the attachment button is hidden
 
 ## Session Files
 
-Upload files that persist throughout your chat session:
+Session files are documents that stay available for the whole conversation:
 
-1. Open **Chat Settings** (gear icon)
-2. Find the **Files** section
-3. Click **Upload** or drag-and-drop files
-4. Files are available for the entire session
+1. Use the **Attachment** panel in the composer to upload a file to the session
+2. Session files persist for the chat, not just one message
+3. Remove a file when you no longer need it
 
-### Managing Session Files
+To let the AI actually read your uploaded documents, enable **Knowledge Base** in [Chat Settings](settings.md) — the file panel also appears there when it's on.
 
-- **View** - See all uploaded files in the Files panel
-- **Download** - Click a file to download it
-- **Delete** - Remove files you no longer need
-- **Refresh** - Update the file list
+## Using Attachments in Chat
 
-## Using Files in Chat
+Once an image or file is attached:
 
-Once files are attached:
-
-1. Reference them in your message: "Based on the uploaded PDF..."
-2. The AI can read and analyze the content
-3. Ask questions about specific sections or data
-
-## Image Support
-
-For image files:
-
-- **Preview** - Images show thumbnails
-- **Analysis** - AI can describe and analyze images
-- **Context** - Reference images in your questions
+1. Reference it in your message: "Based on the uploaded PDF…" or "What's in this screenshot?"
+2. The AI reads and analyzes the content
+3. Ask questions about specific sections, data, or details
 
 ## Tips
 

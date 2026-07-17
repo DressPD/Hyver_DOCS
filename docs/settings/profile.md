@@ -1,78 +1,42 @@
-# Profile Settings
+# Profile & Account
 
-Manage your account information.
+Manage your account information from the **Settings** page.
 
-## Accessing Profile
+## Accessing Settings
 
-1. Click **Settings** in the navigation (or Account Menu)
-2. The Settings page opens to your profile
+Open your **account menu** at the bottom of the sidebar and choose **Settings**.
 
-## Profile Information
+The page is organized into cards: **Profile**, **Address**, **Notifications**, **Integrations**, and **Website Settings**.
 
-### Name
+## Editing Your Details
 
-Your display name shown throughout Hyver:
-- In chats
-- On shared agents/skills
-- In account areas
+Profile and address fields are read-only until you click **Edit** on the card. Make your changes, then click **Save** (or **Cancel** to discard).
 
-To change:
-1. Click on the name field
-2. Enter new name
-3. Click **Save**
+## Profile
 
-### Email
+- **Name** — your display name, shown throughout Hyver
+- **Email** — used for sign-in and notifications; this can't be changed
+- **Phone** — optional, with a country-code selector
 
-Your account email:
-- Used for login
-- Receives notifications
-- Cannot be changed (contact support if needed)
+Your avatar is generated automatically from your name or email.
 
-### Profile Picture
+## Address
 
-Your avatar displayed in the app:
-- Upload a custom image
-- Or use the auto-generated initial
+An optional address (street, city, postal code, state, country) — useful for billing.
 
-## Address Information
+## Other Settings
 
-Optional business/billing address:
-- Used for invoices
-- Required for some subscription plans
+The same Settings page also contains:
 
-## Saving Changes
+- **Notifications** — see [Notification Settings](../notifications/settings.md)
+- **Integrations** — see [Integrations](../integrations/overview.md)
+- **Website Settings** — theme and language; see [Theme & Language](appearance.md)
 
-- Most changes save automatically
-- Click **Save** when prompted
-- Confirmation appears on success
+## Deleting Your Account
 
-## Account Security
-
-### Change Password
-
-1. Click **Change Password**
-2. Enter current password
-3. Enter new password (twice)
-4. Click **Update**
-
-### Two-Factor Authentication
-
-If available:
-- Enable extra security
-- Use authenticator app
-- Backup codes provided
-
-## Deleting Account
-
-⚠️ **Warning:** Account deletion is permanent.
-
-To request account deletion:
-1. Contact support
-2. Verify your identity
-3. Account and data will be removed
+Account and subscription deletion is handled from the **Subscriptions** area — open **Subscriptions** from the account menu and follow the deletion flow. If you need help, contact [support@hyver.app](mailto:support@hyver.app).
 
 ## Tips
 
-- Keep your email current for notifications
-- Use a strong, unique password
-- Update your name if it changes
+- Keep your email current — it's where notifications go
+- Fill in your address if you plan to subscribe to a paid plan

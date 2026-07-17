@@ -15,19 +15,19 @@ Welcome to Hyver! This guide will help you get up and running quickly.
 
 ## Overview
 
-Hyver is organised around four sections accessible from the left sidebar:
+The left sidebar gives you three main sections: **Chat**, **Tasks**, and **Files**. Your account menu (bottom of the sidebar) opens **Settings**, **Notifications**, and **Subscriptions**.
 
 ### Chat
-The main workspace where you interact with AI. Type a message, attach files, mention a skill with `@`, and the AI responds in real-time.
-
-### Files
-Your knowledge base. Upload documents (PDF, DOCX, TXT, etc.) into folders. The AI can reference these files when the knowledge base is enabled in chat settings.
-
-### Skills
-Reusable prompt templates for recurring workflows. Pick a skill from the marketplace or create your own, then launch it directly into chat.
+The main workspace where you interact with AI. Type a message, attach images, run a skill with `/skill/` or a tool with `/tool/`, and the AI responds in real-time.
 
 ### Tasks
-A dashboard of all your chat sessions and their status — running, completed, failed, or awaiting your approval.
+Your command center for AI jobs. Launch a prompt on demand or on a schedule, save prompts as reusable **skills**, and track everything in one feed grouped by status — needs approval, in progress, failed, scheduled, or completed.
+
+### Files
+Your knowledge base. Upload documents (PDF, DOCX, TXT, and more) into folders. The AI can reference these files when the knowledge base is enabled in chat settings.
+
+### Skills
+Reusable prompt templates for recurring workflows. Create them from the Tasks page, then launch them in chat with `/skill/` — or browse them in the command palette (⌘K / Ctrl+K).
 
 ## Next Steps
 

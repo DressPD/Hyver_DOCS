@@ -30,12 +30,9 @@ To sign out:
 
 - Verify your email address is correct
 - Check if Caps Lock is on
+- Confirm your email if you haven't finished the confirmation step during sign-up
 - Try resetting your password
 - Clear your browser cache and try again
-
-### Account not approved?
-
-If you see the Beta Access screen after signing in, your account is still pending approval. You'll receive a notification when approved.
 
 ## What's Next?
 

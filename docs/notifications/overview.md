@@ -4,71 +4,46 @@ Stay informed about important events in Hyver.
 
 ## Accessing Notifications
 
-### From Navigation
-
-Look for the notification icon in the navigation:
-- Badge shows unread count
-- Click to open notifications page
-
-### From Account Menu
-
-1. Click your account menu
-2. Select **Notifications**
+Open your **account menu** at the bottom of the sidebar and select **Notifications** — a badge shows your unread count. This opens the Notifications page.
 
 ## Notification Types
 
-### Task Updates
+### Agent & Task Updates
+- A job finished
+- A job failed
+- An agent run needs your attention
 
-- Job completed
-- Job failed
-- Approval needed
+### Action Required
+Some notifications need you to act — approving a tool, connecting a service, or providing credentials. These are marked with an **Action required** badge.
 
 ### System Messages
+Account and product updates.
 
-- Account updates
-- New features
-- Maintenance notices
+## The Notifications Page
 
-### Chat Activity
+Notifications are split into two sections:
 
-- Mentions in chats
-- Important updates
+- **New** — unread notifications, with an unread dot and a count
+- **Earlier** — notifications you've already read
 
-## Notification List
-
-The Notifications page shows:
-
-- **Unread** - New notifications (highlighted)
-- **Read** - Previously viewed notifications
-- **Timestamp** - When it happened
-- **Action link** - Jump to related content
+Each notification shows a subject, a short body, the tool involved (if any), and a relative timestamp.
 
 ## Interacting with Notifications
 
-### View Details
+### Open
+Click a notification to mark it read. If it's linked to a chat session, clicking it opens that chat.
 
-Click a notification to:
-- See full message
-- Navigate to related content (chat, task)
-
-### Mark as Read
-
-- Click a notification to mark as read
-- Or click **Mark All Read** for all
+### Mark as read
+Click **Mark all as read** in the **New** section header to clear the unread state for everything.
 
 ### Delete
-
-- Click the delete icon on individual notifications
-- Or **Delete All** to clear everything
+Hover a notification and click the trash icon to delete it, or use **Clear all** at the top to remove everything (you'll be asked to confirm).
 
 ## Notification Settings
 
-Control what notifications you receive:
-
-See [Notification Settings](settings.md) for configuration options.
+Choose which notifications you receive in [Notification Settings](settings.md).
 
 ## Tips
 
-- Check notifications regularly
-- Clear old notifications to stay organized
-- Configure settings to avoid noise
+- Check notifications regularly, especially for action-required items
+- Clear old notifications to keep the list tidy

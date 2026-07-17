@@ -6,9 +6,9 @@
 
 Chat with AI, build a personal knowledge base, save reusable skills, and track every job.
 
-- 💬 **Chat** — Converse with AI using web search, reasoning, and file context
+- 💬 **Chat** — Converse with AI using web search, reasoning, tools, and file context
 - 🗂️ **Files** — Upload documents into your knowledge base for AI-powered retrieval
-- ✨ **Skills** — Save prompt templates and launch them instantly with `@`
-- ✅ **Tasks** — Monitor and manage all your AI jobs in one place
+- ✨ **Skills** — Save reusable prompt templates and launch them with `/skill/` in chat
+- ✅ **Tasks** — Run, schedule, and monitor all your AI jobs in one place
 
 [Get Started](getting-started/overview.md)

@@ -1,97 +1,41 @@
 # Credits
 
-Understand how credits work in Hyver.
+> **Coming soon.** Paid plans and credit purchases aren't live yet. This describes how credits are set to work.
 
 ## What are Credits?
 
-Credits are Hyver's usage currency:
+Credits (shown as **tokens**) are Hyver's usage currency:
 
-- Each AI operation costs credits
-- Credits refresh weekly
-- Different plans include different credit amounts
+- Each AI operation consumes credits
+- Your weekly allowance refreshes on a cycle
+- Different plans include different allowances
 
-## Credit Usage
-
-### What Uses Credits
-
-| Action | Credit Cost |
-|--------|-------------|
-| Chat messages | Per message |
-| AI responses | Based on length |
-| Tool usage | Per operation |
-| Knowledge base queries | Per query |
-
-Costs vary by AI model:
-- More capable models = more credits
-- Faster models = fewer credits
-
-### What Doesn't Use Credits
-
-- Browsing (agents, tools, etc.)
-- Account settings
-- Viewing history
-- Basic navigation
-
-## Viewing Your Credits
-
-1. Check the credit counter in the navigation
-2. Or go to **Subscriptions** for details
-
-Shows:
-- Current balance
-- Weekly allowance
-- Usage history
-
-## Credit Refresh
-
-Credits refresh on a weekly cycle:
-- Same day each week
-- At the start of your billing period
-- Unused credits don't roll over
+Costs vary by model — more capable models use more credits than faster ones.
 
 ## Your Weekly Allowance
 
-| Plan | Credits/Week |
-|------|-------------|
+| Plan | Tokens / week |
+|------|---------------|
 | Fly (Free) | 20K |
 | Bee | 100K |
 | Wasp | 300K |
-| Hornet | 2M |
+| Hornet | Custom |
 
-## Running Low?
+Your current balance and allowance are shown on the **Subscriptions** page.
 
-### During the Week
+## Buying Extra Credits
 
-If you run out before refresh:
-- Wait for weekly refresh
-- Or purchase additional credits
+Need more before your allowance refreshes? On the Subscriptions page:
 
-### Consistently Running Out
+1. Open the **Custom credits** section
+2. Drag the slider to choose an amount
+3. The price updates live — larger bundles get a volume discount (a lower price per 1K)
+4. Click **Purchase** to check out (secured by Stripe)
 
-- Consider upgrading your plan
-- Or purchase credit bundles
-
-## Purchasing Additional Credits
-
-Buy extra credits anytime:
-
-1. Go to **Subscriptions**
-2. Click **Buy Credits** or **Add Credits**
-3. Select credit bundle amount
-4. Complete payment
-5. Credits added immediately
-
-### Credit Bundles
-
-Pre-packaged credit amounts:
-- Small bundle
-- Medium bundle
-- Large bundle
-
-Purchased credits don't expire.
+Purchased credits are added to your balance.
 
 ## Tips
 
-- Monitor usage to avoid surprises
+- Monitor your balance on the Subscriptions page
 - Use efficient models for simple tasks
-- Upgrade plan if consistently buying credits
+- Consider a higher plan if you regularly buy extra credits

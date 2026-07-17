@@ -2,26 +2,35 @@
 - Getting Started
   - [Overview](getting-started/overview.md)
   - [Create Account](getting-started/signup.md)
+  - [Sign In](getting-started/login.md)
   - [First Steps](getting-started/first-steps.md)
 - Chat
   - [Overview](chat/overview.md)
   - [Sending Messages](chat/messages.md)
   - [Attachments](chat/attachments.md)
   - [Chat Settings](chat/settings.md)
+  - [Activity Pane](chat/activity.md)
 - Files
   - [Overview](files/overview.md)
   - [Uploading Files](files/upload.md)
   - [Managing Documents](files/manage.md)
 - Skills
   - [Overview](skills/overview.md)
-  - [Browse Skills](skills/browse.md)
-  - [Create Skill](skills/create.md)
+  - [Find & Use Skills](skills/browse.md)
+  - [Create a Skill](skills/create.md)
 - Tasks
   - [Overview](tasks/overview.md)
   - [Task Status](tasks/status.md)
   - [Managing Tasks](tasks/manage.md)
+- Integrations
+  - [Overview](integrations/overview.md)
+- Notifications
+  - [Overview](notifications/overview.md)
+  - [Notification Settings](notifications/settings.md)
 - Settings
-  - [Profile](settings/profile.md)
-  - [Appearance](settings/appearance.md)
-  - [Notifications](notifications/overview.md)
-  - [Subscriptions](subscriptions/plans.md)
+  - [Profile & Account](settings/profile.md)
+  - [Theme & Language](settings/appearance.md)
+- Subscriptions
+  - [Plans](subscriptions/plans.md)
+  - [Credits](subscriptions/credits.md)
+  - [Billing](subscriptions/billing.md)

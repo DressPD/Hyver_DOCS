@@ -4,11 +4,12 @@ Chat is the heart of Hyver — your workspace for interacting with AI.
 
 ## What You Can Do
 
-- **Send messages** to AI models directly
-- **Attach files** for the AI to analyse in the current message
-- **Mention skills** with `@` to apply a reusable prompt template
-- **Configure settings** for each conversation (model, reasoning, web search, knowledge base)
-- **View activity** to watch the AI's reasoning process in real-time
+- **Send messages** to the AI directly
+- **Attach images** for the AI to analyse in the current message
+- **Run skills** with `/skill/` to apply a reusable prompt template
+- **Use tools** with `/tool/` to let the AI call external services
+- **Configure settings** for each conversation (reasoning, web search, human control, knowledge base)
+- **View activity** to watch the AI's reasoning and tool use in real-time
 
 ## Chat Interface
 
@@ -17,23 +18,23 @@ The central area shows your conversation history. Your messages appear on the ri
 
 ### Message Composer
 At the bottom of the screen:
-- **Text input** — Type your message
+- **Text input** — Type your message (Shift+Enter for a new line)
 - **Send button** — Send your message (or press Enter)
 - **Stop button** — Interrupt a response in progress
-- **Attachment button** — Add files to your message
-- **Skill mentions** — Type `@` to search and add a skill
-- **Slash commands** — Type `/` for quick actions
+- **Attachment button** — Attach images, or upload session files
+- **Microphone** — Dictate your message with voice input
+- **Slash commands** — Type `/` for skills (`/skill/`), tools (`/tool/`), and `/help`
 
 ### Navigation Sidebar
-Quick access to recent chats, skills, files, and tasks.
+Quick access to your recent chats, tasks, and files.
 
 ## Creating Chats
 
 ### New Chat
 Click the **New Chat** button in the navigation sidebar to start a fresh conversation.
 
-### From the Skills Page
-On the **Skills** page, click **Use Skill** or **Chat** on any skill card to open a new chat with that skill's prompt pre-filled.
+### From a Skill
+Open the command palette (⌘K / Ctrl+K) on the **Tasks** page and choose **Use** on a skill to start a new chat with its prompt pre-filled — or type `/skill/` directly in any chat.
 
 ## Managing Chats
 

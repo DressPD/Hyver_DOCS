@@ -1,54 +1,38 @@
-# Browse Skills
+# Find & Use Skills
 
-Find reusable prompt systems for your daily workflows.
+Skills live in two places: the **command palette** on the Tasks page, and the **`/skill/`** search in chat.
 
-## Accessing Skills
+## The Command Palette
 
-1. Click **Skills** in the navigation sidebar
-2. The Skills page opens
+1. Go to the **Tasks** page
+2. Press **⌘K / Ctrl+K** (or click the search hint) to open the command palette
+3. Browse your skills and the marketplace, or start typing to search
 
-## Page Sections
+### Groups
 
-### Your Skills
+- **Your Skills** — skills you created (with an **Edit** action)
+- **Marketplace** — **Official** (Hyver-curated) and **Community** (public) skills
 
-Skills you own or can edit:
-- created by you
-- tailored to your workflows
-- ready to adjust and relaunch
+Each result shows the name, description, category, an **Official** / **Community** tag, and a usage count. With no search term, skills are sorted by how often they're used.
 
-### Marketplace Skills
+### Filtering
 
-Public skills from Hyver and the community:
-- official picks
-- reusable building blocks
-- strong starting points for common use cases
+Use the category chips to narrow the list, and the search box to match by name or description.
 
-## Searching and Filtering
+### Actions
 
-Use the search and category filters to narrow the list:
+- **Use** — load the skill's prompt (into the Tasks launch box, or the composer via `/skill/`)
+- **Edit** — open the skill form (your own skills only)
 
-1. Type keywords in search
-2. Select a category if needed
-3. Launch the best match directly
+## Using `/skill/` in Chat
 
-Search by:
-- skill name
-- description
-- category
-- use case
-
-## Skill Cards
-
-Each skill shows:
-
-- **Name** - display title
-- **Description** - what the skill helps with
-- **Category** - workflow grouping
-- **Chat / Use Skill** - launch the prompt in chat
-- **Edit / View** - manage or inspect details
+1. In the message box, type **`/skill/`**
+2. Start typing to filter — results include your skills and the marketplace
+3. Pick one with ↑ ↓ and **Enter**
+4. The skill's prompt template pre-fills the composer — edit it if needed, then send
 
 ## Tips
 
-- start with official marketplace skills to learn patterns
-- duplicate strong ideas into your own workspace
-- keep descriptions clear so teammates can find the right skill fast
+- Start from **Official** marketplace skills to learn good prompt patterns
+- Give your skills clear names and descriptions so they're easy to find later
+- Skills you use most often float to the top of the list

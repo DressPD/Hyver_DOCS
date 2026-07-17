@@ -7,7 +7,7 @@ After signing in, you'll land in the **Chat** workspace. Here's how to get start
 When you open a new chat, you'll see:
 
 - A **welcome message** from Hyver
-- **Quick-start suggestions** - skills you can try immediately
+- A **Connect your tools** panel — one-click chips to link external services (Gmail, GitHub, and more) so the AI can act on your behalf. Connect via OAuth or by pasting an API key. You can do this now or come back later.
 
 ## Start Your First Chat
 
@@ -17,48 +17,52 @@ When you open a new chat, you'll see:
 2. Type your question or prompt
 3. Press **Enter** or click **Send**
 
-The AI will respond directly. This is the simplest way to use Hyver.
+The AI responds directly and streams the reply in real-time. This is the simplest way to use Hyver.
 
-### Option 2: Use a Quick-Start Suggestion
+### Option 2: Run a Skill
 
-1. Look at the suggestion pills on the welcome screen
-2. Click one that interests you (e.g., a skill name)
-3. That skill will be added to your chat
-4. Type your message and send
+Skills are saved prompt templates you can reuse:
 
-### Option 3: Mention a Skill
+1. Type `/skill/` in the message box
+2. Search results appear — pick a skill by name
+3. Its prompt template pre-fills the composer
+4. Edit if needed, then send
 
-While typing, you can mention skills:
+### Option 3: Use a Tool
 
-1. Type `@` in the message box
-2. A dropdown appears with available skills
-3. Select one to add it to your chat
-4. The AI will apply that skill to help answer
+Tools let the AI call external services:
+
+1. Type `/tool/` in the message box
+2. Search and select a tool
+3. The tool is activated for this conversation, and the AI uses it when relevant
+
+> Tip: type `/help` to see all available commands.
 
 ## Understanding the Interface
 
 ### Navigation (Left Sidebar)
 
-- **Chat** - Your conversations
-- **Tasks** - Running and completed jobs
-- **Skills** - Reusable prompt systems
-- **Files** - Knowledge base document management
+- **Chat** — Your conversations
+- **Tasks** — Run, schedule, and monitor AI jobs; manage skills
+- **Files** — Knowledge base document management
+
+Your account menu at the bottom opens **Settings**, **Notifications**, and **Subscriptions**. Administrators also see a **Tools** catalog.
 
 ### Chat Area (Center)
 
-- **Message history** - Your conversation
-- **Message box** - Type and send messages
-- **Attachments** - Add files to your message
+- **Message history** — Your conversation
+- **Message box** — Type, dictate (mic), or paste an image; send with Enter
+- **Slash commands** — Type `/` for skills, tools, and help
 
 ### Activity Pane (Right, Optional)
 
-- Shows reasoning and activity during AI responses
-- Toggle with the activity button
+- Shows reasoning and tool activity during AI responses
+- Toggle it open with the activity button
 
 ## What's Next?
 
 Now that you've started chatting:
 
 - [Learn more about chat features](../chat/overview.md)
-- [Browse available skills](../skills/overview.md)
+- [Browse and create skills](../skills/overview.md)
 - [Manage your knowledge base files](../files/overview.md)

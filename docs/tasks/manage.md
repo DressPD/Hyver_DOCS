@@ -1,77 +1,50 @@
 # Managing Tasks
 
-Organize, rename, and delete your tasks.
+Run, retry, schedule, and clean up your tasks from the Tasks feed.
 
-## Task Actions
+## Launching a Task
 
-### Open Chat
+1. Type a prompt in the launch box at the top of the Tasks page
+2. Press **Enter** or click **Launch** to run it now
 
-1. Find the task in the list
-2. Click on it
-3. The associated chat opens
-4. Continue your conversation
+The new task appears in the feed and streams its result; open it any time to read the full conversation.
 
-### Rename Task
+## Scheduling a Task
 
-Give your task a meaningful name:
+1. Type a prompt in the launch box
+2. Click **Schedule** — or type a phrase like "every weekday at 8am" and the schedule panel opens automatically
+3. Set the cadence and launch
 
-1. Right-click the task (or use the menu)
-2. Select **Rename**
-3. Enter a new name
-4. Press Enter or click Save
+Scheduled tasks appear under **Scheduled** and run automatically.
 
-Task names help you find conversations later.
+## Card Actions
 
-### Delete Task
+Which actions appear depends on the task's status:
 
-Remove a task you no longer need:
+- **Approve / Reject** — respond to a tool the AI wants to run (Needs Approval)
+- **Cancel** — stop a running task (In Progress)
+- **Retry** — re-run the last prompt (Failed)
+- **Open** — open the task's chat to see the full conversation
+- **Save as Skill** — turn a completed task's prompt into a reusable skill (Completed)
+- **Pause / Resume, Edit schedule, Delete schedule** — manage a scheduled task
+- **Delete** — remove a task
 
-1. Right-click the task
-2. Select **Delete**
-3. Confirm deletion
+> ⚠️ Deleting a task also deletes its chat history and cannot be undone. Deleting a scheduled task also removes the schedule and its most recent run's chat. You'll be asked to confirm first.
 
-⚠️ **Warning:** Deleting a task removes:
-- The task entry
-- Associated chat history
-- Any uploaded files
+## Renaming a Task
 
-This cannot be undone.
+A task's title comes from its linked chat. To rename it, open the chat and rename it from the **chat list** in the sidebar.
 
-### Cancel Running Job
+## Finding Tasks
 
-If a task is processing and you want to stop it:
+### Filter by status
+Click a stat tile at the top of the page to show only tasks in that state.
 
-1. Find the active task
-2. Click **Cancel** (or open chat and click Stop)
-3. Processing stops immediately
-
-## Filtering Tasks
-
-Find tasks faster:
-
-### By Status
-
-Click status filters to show:
-- All tasks
-- Only active
-- Only completed
-- Only failed
-
-### By Search
-
-Type in the search box:
-- Search by name
-- Search by content keywords
-
-## Bulk Actions
-
-Select multiple tasks for:
-- Delete all selected
-- Mark as read
+### Search
+Use the search box (or press `/`) to match tasks by title. A match count appears while you search.
 
 ## Tips
 
-- Name tasks descriptively for easy finding
-- Delete completed tasks you don't need
-- Use search for old conversations
-- Check failed tasks for error details
+- Give prompts a clear first line — it becomes the task title
+- Save prompts you run often as skills
+- Check failed tasks and use **Retry** to run them again

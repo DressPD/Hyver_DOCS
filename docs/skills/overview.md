@@ -1,60 +1,47 @@
 # Skills Overview
 
-Skills are reusable prompt systems that help you launch proven workflows instantly.
+Skills are reusable prompt templates that let you launch proven workflows instantly.
 
 ## What is a Skill?
 
-A Skill is a reusable prompt template that:
+A skill is a saved prompt template that:
 
-- **Speeds up repeat work** - start from a polished prompt instead of rewriting it
-- **Captures expertise** - preserve the best instructions for a task
-- **Scales reuse** - share private or public skills across your workspace
+- **Speeds up repeat work** — start from a polished prompt instead of rewriting it
+- **Captures expertise** — preserve the best instructions for a task
+- **Can run on a schedule** — turn a skill into a recurring task
+- **Stays consistent** — the same framing, every time
 
 Think of a skill as a launch-ready workflow block for prompting.
 
-## Why Use Skills?
+## Where Skills Live
 
-### Faster execution
+Skills are managed from the **Tasks** page — there's no separate Skills page:
 
-Instead of typing the same setup every time:
-- launch a prepared prompt in one click
-- reuse proven framing for common tasks
-- stay consistent across the team
+- Open the **command palette** with **⌘K / Ctrl+K** (or click the search hint) to browse, use, or edit skills
+- Press **N** (when you're not typing) to create a new skill
+- On a completed task card, click **Save as Skill** to turn a prompt you already ran into a reusable skill
 
-### Better quality
+In chat, type **`/skill/`** to search and launch any skill.
 
-- keep high-performing prompt structures
-- refine instructions over time
-- reuse official and marketplace examples
+## Your Skills vs the Marketplace
 
-### Flexible workflow
-
-- use skills in chat immediately
-- keep them private or publish publicly
-- combine them with tools and agents when needed
-
-## Types of Skills
+The command palette and `/skill/` search group results into two sections:
 
 ### Your Skills
+Skills you created — fully editable, and always **private** to you.
 
-Skills you created or manage:
-- fully editable
-- private or public visibility
-- optimized for your own workflows
+### Marketplace
+Skills shared for everyone to launch:
 
-### Marketplace Skills
+- **Official** — curated skills seeded by Hyver
+- **Community** — public skills contributed by other users
 
-Shared public skills:
-- ready to launch
-- curated official picks and community contributions
-- strong starting points for common use cases
+Marketplace skills are launch-ready starting points; each shows how many times it's been used.
 
-## Using Skills in Chat
+## Using a Skill
 
-1. Go to **Skills**
-2. Pick a skill from your workspace or marketplace
-3. Click **Chat** or **Use Skill**
-4. Hyver opens a chat with the prompt prefilled
+- **In chat** — type **`/skill/`**, pick a skill, and its prompt pre-fills the composer; edit and send.
+- **From the command palette** (Tasks page) — click **Use** to load the skill's prompt into the launch box.
 
 ## Skill Components
 
@@ -63,10 +50,12 @@ Shared public skills:
 | **Name** | Clear title for the workflow |
 | **Description** | Explains when to use the skill |
 | **Category** | Groups similar workflows |
-| **Prompt Template** | The reusable instruction set |
-| **Visibility** | Controls private vs public access |
+| **Prompt Template** | The reusable instructions the AI receives |
+| **Schedule** *(optional)* | Runs the skill automatically on a recurring basis |
+
+> Skills you create are always private. Only Hyver-curated (**Official**) and other users' published (**Community**) skills appear in the marketplace.
 
 ## Learn More
 
-- [Browse Skills](browse.md)
+- [Find & Use Skills](browse.md)
 - [Create a Skill](create.md)

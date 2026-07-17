@@ -14,21 +14,17 @@ If the AI is going in the wrong direction:
 - Click the **Stop** button that appears during generation
 - The AI stops immediately and you can send a follow-up
 
-## Skill Mentions
+## Voice Input
 
-Apply a saved skill prompt directly inside a message:
-
-1. Type `@` anywhere in your message
-2. A dropdown appears with your skills and marketplace skills
-3. Start typing to filter by name
-4. Click or press **Enter** to select
-5. The skill name is highlighted in your message
-
-When you send, the AI applies that skill's prompt template to your conversation.
+Prefer to speak? Click the **microphone** button and dictate your message. Your speech is transcribed into the message box as you talk; click it again to stop.
 
 ## Slash Commands
 
-Type `/` to see available quick actions and shortcuts.
+Type `/` in the message box to open the command menu. Use ↑ ↓ to move and **Enter** to select:
+
+- **`/skill/`** — Search your skills and the marketplace. Selecting one pre-fills the composer with the skill's prompt template so you can edit and send it.
+- **`/tool/`** — Search available tools. Selecting one activates it for the conversation; the AI then calls it when relevant.
+- **`/help`** — List the available commands.
 
 ## Tips for Better Responses
 
@@ -42,7 +38,7 @@ Include relevant background information, especially for complex tasks.
 For large tasks, start with one step at a time rather than asking for everything at once.
 
 ### Use Skills for Repeat Work
-If you find yourself typing the same setup instructions often, create a skill for it and `@` mention it.
+If you find yourself typing the same setup instructions often, save them as a skill and launch it with `/skill/`.
 
 ## Conversation Continuity
 

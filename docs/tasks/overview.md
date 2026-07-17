@@ -1,60 +1,38 @@
 # Tasks Overview
 
-Monitor and manage your chat sessions and running jobs.
+The **Tasks** page is your command center for AI jobs — launch work on demand or on a schedule, and track everything in one feed.
 
-## What are Tasks?
+## What is a Task?
 
-In Hyver, each chat session is tracked as a task:
+A task is any AI job you run:
 
-- **Active chats** - Currently running AI operations
-- **Completed chats** - Finished conversations
-- **Failed jobs** - Operations that encountered errors
+- A **prompt you launch** from the Tasks page (or a chat you started)
+- A **scheduled** job that runs on a recurring basis
+- A **skill** you ran
+
+Each task is tied to a chat, so you can open it to see the full conversation.
 
 ## Accessing Tasks
 
-1. Click **Tasks** in the navigation sidebar
-2. The Tasks page opens showing all your sessions
+Click **Tasks** in the navigation sidebar.
 
-## Task States
+## The Layout
 
-| Status | Meaning |
-|--------|---------|
-| **Processing** | AI is actively working |
-| **Awaiting Approval** | Waiting for your input (Human Control) |
-| **Completed** | Successfully finished |
-| **Failed** | Encountered an error |
-| **Cancelled** | Manually stopped |
-| **Idle** | No active operations |
-| **Archived** | Old, stored sessions |
+### Stat Tiles
+At the top, tiles show how many tasks are in each state — **Needs Approval**, **In Progress**, **Failed**, **Scheduled**, **Completed**, plus a **Total**. Click a tile to filter the feed to that state; click again (or **Show all**) to clear the filter.
 
-## Task List
+### Launch Box
+Below the tiles, type a prompt and:
 
-The Tasks page shows your sessions organized by status:
+- Click **Launch** (or press Enter) to run it now
+- Click **Schedule** to run it on a recurring basis — type something like "every day at 9am" and the schedule panel opens automatically
 
-- Active sessions appear at the top
-- Each entry shows session name, status, and last activity
-- Click to open the associated chat
+### Feed
+Your tasks appear as cards grouped by status. Use the **search** box (or press `/`) to filter, and collapse a section to tidy things up.
 
-## Why Use Tasks?
+## Command Palette
 
-### Monitor Progress
-
-For long-running operations:
-- See what's currently processing
-- Check estimated completion
-- Catch any errors early
-
-### Manage Sessions
-
-- Find old conversations
-- Clean up unwanted sessions
-- Organize your work
-
-### Resume Work
-
-- Click any task to open its chat
-- Continue where you left off
-- Check past results
+Press **⌘K / Ctrl+K** anywhere on the Tasks page to open the skill command palette — search, use, edit, or create skills. See [Skills](../skills/overview.md).
 
 ## Learn More
 
