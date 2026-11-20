@@ -4,21 +4,21 @@ Hyver connects to external services in two places: **tools** you connect from ch
 
 ## Connecting Tools (from Chat)
 
-The chat **welcome screen** shows a **Connect your tools** panel with one-click chips for external services (Gmail, GitHub, and more). Connecting a tool lets the AI act on your behalf in that service.
+The chat **welcome screen** shows a **Connect your tools** panel with one-click chips for external services (Gmail, GitHub, and more), grouped into sections such as **Sales tools** and **Social media**. Connecting a tool lets the AI act on your behalf in that service.
 
 ### Connect a tool
 
-1. Click a tool chip
+1. Click a tool chip (**Connect <tool>**)
 2. For OAuth tools, a popup opens for you to authorize the connection
 3. For API-key tools, paste your key and submit
 
-Connected tools show a checkmark. Click the ✕ on a connected chip to disconnect.
+Connected tools show a checkmark, and the panel shows how many are connected (for example **3/12 connected**). Use the search box to find a tool and **Show more** to expand the list. Click the ✕ on a connected chip (**Disconnect <tool>**) to disconnect. If connection status can't be loaded, the panel says **Connection status unavailable right now**.
 
 ### Connecting mid-conversation
 
-If the AI needs access to a service while working, it shows an **Authentication required** banner listing the services to connect. Connect them, then click **I've connected — retry** to continue.
+If the AI needs access to a service while working, it shows an **Authentication required** banner listing the services to connect. Connect them, then retry to continue.
 
-> Once a tool is available, you can point the AI at it in chat with `/tool/`. Administrators can browse the full catalog from the **Tools** page.
+> Once a tool is available, you can point the AI at it in chat with `/tool/`. Running a tool may ask for your approval — see [Tool Approvals](../chat/approvals.md). Administrators can browse the full catalog from the **Tools** page.
 
 ## Messaging Integrations (Settings)
 

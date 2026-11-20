@@ -1,38 +1,33 @@
 # Hyver User Manual
 
-Welcome to Hyver — your AI Agent Platform.
+Welcome to Hyver — your AI workspace. Chat with AI, run reusable skills, connect your tools, keep your files at hand, and track every job in one place.
 
-Hyver lets you chat with AI models, run reusable skills, connect external tools, manage knowledge base files, and track your AI workflows.
+## Where to Start
 
-## Quick Navigation
+| Section | What it covers |
+|---------|----------------|
+| [Getting Started](getting-started/overview.md) | Create an account, sign in, and take your first steps |
+| [Chat](chat/overview.md) | Messages, attachments, the Files & Skills panel, tool approvals, and the Activity pane |
+| [Skills](skills/overview.md) | Reusable prompt templates you launch with `/skill/` |
+| [Tasks](tasks/overview.md) | Launch, schedule, approve, and monitor jobs on the Autopilot page |
+| [Integrations](integrations/overview.md) | Connect tools, Telegram, and Slack |
+| [Notifications](notifications/overview.md) | Stay on top of finished jobs and approvals |
+| [Settings](settings/profile.md) | Profile, theme, language, integrations, and your data & privacy controls |
+| [Subscriptions](subscriptions/plans.md) | Plans, credits, and billing |
 
-| Section                                        | Description                                         |
-| ---------------------------------------------- | --------------------------------------------------- |
-| [Getting Started](getting-started/overview.md) | Create an account, sign in, first steps             |
-| [Chat](chat/overview.md)                       | Send messages, attach images, run skills and tools  |
-| [Files](files/overview.md)                     | Upload and manage knowledge base documents          |
-| [Skills](skills/overview.md)                   | Create and launch reusable prompt templates         |
-| [Tasks](tasks/overview.md)                     | Run, schedule, and track AI jobs                    |
-| [Integrations](integrations/overview.md)       | Connect external tools, Telegram, and Slack         |
-| [Notifications](notifications/overview.md)     | Manage alerts and updates                           |
-| [Settings](settings/profile.md)                | Profile, address, theme, language, integrations     |
-| [Subscriptions](subscriptions/plans.md)        | Plans, credits, billing                             |
+## What You Can Do
 
-## What is Hyver?
+- **Chat with AI** and watch its reasoning and tool use live
+- **Attach images** and keep **files** alongside your conversations
+- **Save skills** — reusable prompts — and launch them from any chat
+- **Approve actions** before the AI runs a tool, once, for a session, or always
+- **Automate** recurring work and follow it from one Tasks feed
+- **Connect tools** such as Gmail and GitHub, and reach Hyver from Telegram or Slack
 
-Hyver is an AI platform where you can:
+## Navigation
 
-- **Chat** with AI, powered by Claude models — Hyver selects the right model for your request
-- **Upload files** to build knowledge bases for AI-assisted document workflows
-- **Create skills** — reusable prompt templates you can launch instantly with `/skill/`
-- **Run tools** — connect external services and call them from chat with `/tool/`
-- **Track tasks** — run jobs on demand or on a schedule, and monitor them in one feed
-- **Manage subscriptions** — control your usage and billing
+The left sidebar has **Chat** and **Tasks**; administrators also see **Tools**. Your account menu (bottom of the sidebar) opens **Settings**, **Notifications**, and **Subscriptions**. Past chats are under **Recent chats**, with a **View all conversations** link.
 
-## Primary Navigation
+## Need Help?
 
-The left sidebar gives you access to **Chat**, **Tasks**, and **Files**. Your account menu (bottom of the sidebar) opens **Settings**, **Notifications**, and **Subscriptions**. Some areas, such as the **Tools** catalog, are available to administrators only.
-
-## Getting Help
-
-If you need assistance, visit the [Getting Started](getting-started/overview.md) section or contact support at [support@hyver.app](mailto:support@hyver.app).
+Email [support@hyver.app](mailto:support@hyver.app).
