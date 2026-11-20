@@ -8,12 +8,10 @@
   - [Overview](chat/overview.md)
   - [Sending Messages](chat/messages.md)
   - [Attachments](chat/attachments.md)
+  - [Files & Skills Panel](chat/files-panel.md)
+  - [Tool Approvals](chat/approvals.md)
   - [Chat Settings](chat/settings.md)
   - [Activity Pane](chat/activity.md)
-- Files
-  - [Overview](files/overview.md)
-  - [Uploading Files](files/upload.md)
-  - [Managing Documents](files/manage.md)
 - Skills
   - [Overview](skills/overview.md)
   - [Find & Use Skills](skills/browse.md)
@@ -30,6 +28,7 @@
 - Settings
   - [Profile & Account](settings/profile.md)
   - [Theme & Language](settings/appearance.md)
+  - [Data & Privacy](settings/privacy.md)
 - Subscriptions
   - [Plans](subscriptions/plans.md)
   - [Credits](subscriptions/credits.md)

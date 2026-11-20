@@ -4,16 +4,13 @@ Build a reusable prompt template for work you do often.
 
 ## Open the Skill Form
 
-From the **Tasks** page:
-
-1. Open the command palette (**⌘K / Ctrl+K**) and click **Create new**, or press **N** when you're not typing
-2. The skill form opens
-
-You can also click **Save as Skill** on a completed task card to start from a prompt you already ran.
+1. In a chat, open the [Files & Skills panel](../chat/files-panel.md)
+2. Switch to the **Skills** tab and click **New Skill**
+3. The **Create a new skill** form opens
 
 ## Generate with AI (optional)
 
-Not sure where to start? Type what you want in the **Generate** field and click **Generate** — Hyver drafts a name, description, category, and prompt template for you. Edit the result to taste.
+Not sure where to start? Describe it in one line in the **Generate** field — for example "Every time a deal closes in Salesforce, draft a customer welcome email" — and click **Generate**. Hyver drafts a name, description, category, and prompt template. If it can't, fill the fields in by hand.
 
 ## Fill in the Details
 
@@ -40,23 +37,27 @@ The core of the skill — the instructions the AI receives when you launch it. I
 - any constraints or output format
 - context that improves consistency
 
+Use `{{variables}}` for parameterised inputs.
+
 ### Visibility
 
-Skills you create are **private** — only you can use and edit them. Visibility is fixed to private in the form.
-
-## Schedule It (optional)
-
-Toggle **Schedule** to run the skill automatically on a recurring basis. Choose the cadence, and Hyver creates a scheduled task linked to the skill — it appears under **Scheduled** on the Tasks page.
+Skills you create are **private** — only you can use and edit them. Sharing to the marketplace isn't available yet.
 
 ## Save
 
-1. Review the name, category, and prompt (name and prompt are required)
+1. Review the form — **name and prompt template are required**
 2. Click **Create skill** (or **Save changes** when editing)
-3. The skill appears under **Your Skills** in the command palette
+3. The skill appears under **Your skills**
+
+## Editing and Deleting
+
+Click a skill under **Your skills** to edit it. **Delete skill** removes it after you confirm; this can't be undone.
+
+## Make It Recurring
+
+To run a prompt on a schedule, launch it from the **Tasks** page with **Schedule** — see [Managing Tasks](../tasks/manage.md).
 
 ## Next Steps
 
-After creating a skill:
 - launch it in chat with `/skill/`
 - refine the prompt after real usage
-- delete it from the skill form if you no longer need it

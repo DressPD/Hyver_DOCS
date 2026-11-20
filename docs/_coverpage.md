@@ -4,11 +4,11 @@
 
 > Your AI workspace
 
-Chat with AI, build a personal knowledge base, save reusable skills, and track every job.
+Chat with AI, keep your files and skills at hand, approve what it does, and track every job.
 
-- 💬 **Chat** — Converse with AI using web search, reasoning, tools, and file context
-- 🗂️ **Files** — Upload documents into your knowledge base for AI-powered retrieval
-- ✨ **Skills** — Save reusable prompt templates and launch them with `/skill/` in chat
-- ✅ **Tasks** — Run, schedule, and monitor all your AI jobs in one place
+- 💬 **Chat** — Converse with AI using web search, reasoning, tools, and your files
+- 🗂️ **Files & Skills** — A side panel for your documents and reusable prompts
+- ✅ **Approvals** — Review a tool action before it runs: once, for the session, or always
+- 🚀 **Tasks** — Launch, schedule, and monitor all your AI jobs in one feed
 
 [Get Started](getting-started/overview.md)

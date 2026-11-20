@@ -1,38 +1,29 @@
 # Find & Use Skills
 
-Skills live in two places: the **command palette** on the Tasks page, and the **`/skill/`** search in chat.
+Skills live in two places: the **Skills** tab of the Files & Skills panel, and the **`/skill/`** search in chat.
 
-## The Command Palette
+## The Skills Tab
 
-1. Go to the **Tasks** page
-2. Press **⌘K / Ctrl+K** (or click the search hint) to open the command palette
-3. Browse your skills and the marketplace, or start typing to search
+1. In a chat, open the [Files & Skills panel](../chat/files-panel.md)
+2. Switch to the **Skills** tab
 
 ### Groups
 
-- **Your Skills** — skills you created (with an **Edit** action)
-- **Marketplace** — **Official** (Hyver-curated) and **Community** (public) skills
+- **Your skills** — skills you created; click one to edit it
+- **Public skills** — skills shared with everyone; curated ones carry an **Official** badge
 
-Each result shows the name, description, category, an **Official** / **Community** tag, and a usage count. With no search term, skills are sorted by how often they're used.
-
-### Filtering
-
-Use the category chips to narrow the list, and the search box to match by name or description.
-
-### Actions
-
-- **Use** — load the skill's prompt (into the Tasks launch box, or the composer via `/skill/`)
-- **Edit** — open the skill form (your own skills only)
+If you haven't created any yet, the tab shows **No skills yet** and a **New Skill** button.
 
 ## Using `/skill/` in Chat
 
 1. In the message box, type **`/skill/`**
-2. Start typing to filter — results include your skills and the marketplace
+2. Start typing to filter the list
 3. Pick one with ↑ ↓ and **Enter**
 4. The skill's prompt template pre-fills the composer — edit it if needed, then send
 
+The chat welcome screen also offers a **Quick start** with skills you can pick.
+
 ## Tips
 
-- Start from **Official** marketplace skills to learn good prompt patterns
+- Start from **Official** skills to learn good prompt patterns
 - Give your skills clear names and descriptions so they're easy to find later
-- Skills you use most often float to the top of the list

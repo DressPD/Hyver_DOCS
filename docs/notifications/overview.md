@@ -14,7 +14,7 @@ Open your **account menu** at the bottom of the sidebar and select **Notificatio
 - An agent run needs your attention
 
 ### Action Required
-Some notifications need you to act — approving a tool, connecting a service, or providing credentials. These are marked with an **Action required** badge.
+Some notifications need you to act — approving a tool, connecting a service, or providing credentials. These are marked with an **Action required** badge. See [Tool Approvals](../chat/approvals.md).
 
 ### System Messages
 Account and product updates.
@@ -26,7 +26,7 @@ Notifications are split into two sections:
 - **New** — unread notifications, with an unread dot and a count
 - **Earlier** — notifications you've already read
 
-Each notification shows a subject, a short body, the tool involved (if any), and a relative timestamp.
+Each notification shows a subject, a short body, the tool involved (if any), and a relative timestamp. The list loads in pages — click **Load more** at the bottom to see older ones.
 
 ## Interacting with Notifications
 
