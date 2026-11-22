@@ -1,68 +1,50 @@
 # Chat Settings
 
-Customize your chat experience with various settings and toggles.
+Customize each conversation from the **Chat settings** popover.
 
 ## Accessing Settings
 
 1. Click the **Settings** icon (⚙️) in the chat header
-2. The settings panel opens
-3. Toggle options as needed
+2. The **Chat settings** popover opens
+3. Pick a model or toggle an option
 4. Changes apply immediately
 
 ## Available Settings
 
-### Reasoning Mode
+### Model
+
+Choose which AI model the conversation uses. Models that can't do extended thinking say so — **Reasoning** is unavailable for them.
+
+Your default model for new chats is set under **Settings → Chat settings → Default model**.
+
+### Reasoning
 
 Shows the AI's thought process as it works:
 
 - **On** - See step-by-step reasoning in responses
 - **Off** - See only final answers
 
-Reasoning mode helps you understand how the AI reaches conclusions.
+Reasoning helps you understand how the AI reaches conclusions. It's disabled when the selected model doesn't support it.
 
-### Web Search
+### Search
 
-Enables the AI to search the web:
+Lets the AI search the web:
 
 - **On** - AI can find current information online
 - **Off** - AI uses only its training data
 
-Enable for questions about recent events or specific facts.
+Enable it for questions about recent events or specific facts.
 
-### Human Control
+## What Moved
 
-Requires your approval before the AI takes certain actions:
-
-- **On** - You must approve each tool action before it runs
-- **Off** - AI proceeds automatically
-
-When it's on and the AI wants to use a tool, an **approval banner** appears in the chat with **Approve** / **Deny**. Pending approvals also show up on the **Tasks** page under **Needs Approval**. Use this for sensitive operations or when you want to review exactly what the AI is doing before it acts.
-
-### Knowledge Base
-
-Enables the AI to reference documents you have uploaded in the **Files** section:
-
-- **On** - AI searches your knowledge base for relevant context
-- **Off** - AI uses only its training data and the current conversation
-
-Upload documents first in [Files](../files/overview.md), then enable this toggle to let the AI reference them.
-
-## File Upload Section
-
-In settings, you can also manage session files:
-
-- **Upload Files** - Add files to the session
-- **View Files** - See current session files
-- **Delete Files** - Remove unwanted files
-
-See [File Attachments](attachments.md) for details.
+- **Human control** is no longer a chat setting. Approvals are decided per request, with the scope choice on the approval card — see [Tool Approvals](approvals.md).
+- **Knowledge base** is no longer a toggle. Keep documents in the [Files & Skills panel](files-panel.md) and reference them with `/file/`.
 
 ## Per-Chat Settings
 
-Settings are saved per chat — each conversation remembers its own toggles, so you can keep reasoning on in one chat and web search off in another.
+Settings are saved per chat — each conversation remembers its own choices, so you can keep reasoning on in one chat and search off in another.
 
 ## Tips
 
 - Enable **Reasoning** when debugging or learning
-- Enable **Human Control** for high-stakes operations
-- Disable **Web Search** when you want faster responses
+- Turn **Search** off when you want faster responses from the model alone

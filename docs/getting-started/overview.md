@@ -15,19 +15,19 @@ Welcome to Hyver! This guide will help you get up and running quickly.
 
 ## Overview
 
-The left sidebar gives you three main sections: **Chat**, **Tasks**, and **Files**. Your account menu (bottom of the sidebar) opens **Settings**, **Notifications**, and **Subscriptions**.
+The left sidebar has two main sections: **Chat** and **Tasks**. Your account menu (bottom of the sidebar) opens **Settings**, **Notifications**, and **Subscriptions**. Administrators also see a **Tools** catalog.
 
 ### Chat
-The main workspace where you interact with AI. Type a message, attach images, run a skill with `/skill/` or a tool with `/tool/`, and the AI responds in real-time.
+The main workspace where you interact with AI. Type a message, attach images, run a skill with `/skill/` or a tool with `/tool/`, and the AI responds in real time. A **Files & Skills** side panel keeps your documents and skills one click away, and a **tool approval** card lets you review an action before the AI runs it.
 
 ### Tasks
-Your command center for AI jobs. Launch a prompt on demand or on a schedule, save prompts as reusable **skills**, and track everything in one feed grouped by status — needs approval, in progress, failed, scheduled, or completed.
-
-### Files
-Your knowledge base. Upload documents (PDF, DOCX, TXT, and more) into folders. The AI can reference these files when the knowledge base is enabled in chat settings.
+Your **Autopilot** page. Launch a prompt on demand or on a schedule and track everything in one feed grouped by status — needs approval, in progress, failed, scheduled, or completed.
 
 ### Skills
-Reusable prompt templates for recurring workflows. Create them from the Tasks page, then launch them in chat with `/skill/` — or browse them in the command palette (⌘K / Ctrl+K).
+Reusable prompt templates for recurring workflows. Create and manage them in the **Skills** tab of the Files & Skills panel, then launch them in chat with `/skill/`.
+
+### Files
+Upload documents into the **Files** tab of the same panel, organize them in folders, and reference them in chat with `/file/`.
 
 ## Next Steps
 

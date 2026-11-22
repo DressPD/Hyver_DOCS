@@ -6,62 +6,68 @@ The Activity Pane shows real-time insight into what the AI is doing during compl
 
 When the AI processes your request it may:
 - Think through problems step by step
-- Call external tools (web search, file lookup, etc.)
+- Call external tools (web search, browsing, and more)
 - Process and synthesise information
-- Make decisions between different approaches
+- Pause to ask for your approval
 
-The Activity Pane lets you watch this process unfold in real-time.
+The Activity Pane lets you watch this unfold as it happens.
 
 ## Opening the Activity Pane
 
 1. Look for the **Activity** button in the chat header
-2. Click to toggle the pane open/closed
+2. Click to toggle the pane open or closed (**Collapse panel** / **Expand panel**)
 3. The pane appears on the right side of the chat
 
 ## What You'll See
 
-### Reasoning Timeline
+### Status
 
-A step-by-step view of the AI's thought process:
+A status line shows what the run is doing right now: **Running**, **Ready**, **Waiting for your approval**, **Paused**, **Completed**, or **Error**. While a run is live you'll see **Live** and the current response; afterwards, the **Last response**.
 
-- **Thinking** - Internal reasoning steps
-- **Planning** - How the AI approaches your request
-- **Deciding** - Choices between different approaches
+### Steps and Tool Activity
 
-### Tool Calls
+A step-by-step timeline of the AI's thinking and its tool calls:
 
-When the AI uses external tools (web search, knowledge base lookup, etc.):
+- **Thinking** — internal reasoning steps (when Reasoning is on)
+- **Tool activity** — which tool was called, what went in, what came back, and whether it succeeded, failed, or is still running (for example **2/3 completed**)
+- **Loops** — how many iterations the run has taken
 
-- **Tool Name** - Which tool is being called
-- **Input** - What data is sent to the tool
-- **Output** - What the tool returns
-- **Status** - Success, error, or pending
+### Usage
 
-### Progress Indicators
+Counts of **Steps**, **Tools**, and actions used (in / out / total) for the run.
 
-- **Loading states** - When waiting for responses
-- **Status updates** - Current operation
-- **Completion** - When finished
+### Browser Views
+
+When the AI browses the web on your behalf, screenshots and a live view of the browser can appear in the chat.
+
+## Workspace Status
+
+Hyver runs your tasks in a personal workspace that starts on demand:
+
+| Status | Meaning |
+|--------|---------|
+| **Workspace starting…** | Being set up in the background — the chat works normally in the meantime |
+| **Workspace ready** | Ready to run |
+| **Workspace hibernated** | Idle; it starts automatically on your next message |
+| **Responding…** / **Reconnecting…** | A reply is in progress, or the connection is being restored |
+| **Needs approval** / **Needs authorization** | Waiting for you — see [Tool Approvals](approvals.md) or connect the service |
+| **Last message failed** / **Workspace error** | Something went wrong; try sending again |
+
+The first message after the workspace has been idle can take a little longer while it wakes up.
 
 ## When to Use It
 
-The Activity Pane is helpful when:
-
-- **Learning** - Understanding how the AI approaches your request
-- **Debugging** - Seeing why something didn't work as expected
-- **Complex tasks** - Following multi-step operations
-- **Tool operations** - Verifying external actions before they complete
+- **Learning** — Understanding how the AI approaches your request
+- **Debugging** — Seeing why something didn't work as expected
+- **Complex tasks** — Following multi-step operations
+- **Tool operations** — Verifying external actions
 
 ## Resizing
 
-The Activity Pane is resizable:
-
-1. Hover over the left edge of the pane
-2. Drag to resize wider or narrower
-3. Position is remembered
+The pane is resizable — drag its left edge to make it wider or narrower.
 
 ## Tips
 
-- Collapse the pane when not needed to save screen space
-- Expand it during complex or multi-step operations
-- Use the reasoning view to understand how the AI reached a conclusion
+- Collapse the pane when you don't need it to save screen space
+- Open it during multi-step operations
+- Check the **Workspace** status if a reply is slow to start
